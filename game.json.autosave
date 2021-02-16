@@ -18,8 +18,8 @@
     "version": "1.0.0",
     "name": "Project",
     "author": "",
-    "windowWidth": 800,
-    "windowHeight": 600,
+    "windowWidth": 1280,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -376,7 +376,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 0.424
       },
       "objectsGroups": [],
       "variables": [],
