@@ -591,12 +591,7 @@
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "CoinsPerUnit",
-              "value": "10"
-            }
-          ]
+          "initialVariables": []
         },
         {
           "angle": 0,
@@ -4321,6 +4316,17 @@
                     "\"ShopUI\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4365,6 +4371,17 @@
                   "parameters": [
                     "",
                     "\"ShopUI\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -4579,6 +4596,100 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "ShopButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ShopInteraction",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "ShopBackground.Variable(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].Price)",
+                    "<=",
+                    "Player.Variable(Coins)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Coins",
+                    "-",
+                    "ShopBackground.Variable(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].Price)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "CurrencyText",
+                    "UpdateText",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -6289,14 +6400,6 @@
                     "1"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -6403,14 +6506,6 @@
                     "=",
                     "1"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -7077,7 +7172,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "ShopUI",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
