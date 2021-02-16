@@ -149,15 +149,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1-0.png",
         "kind": "image",
         "metadata": "",
@@ -488,6 +479,15 @@
         "name": "Left-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -552,7 +552,7 @@
           "width": 0,
           "x": 384,
           "y": 269,
-          "zOrder": 2,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1469,7 +1469,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Down-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 27,
+                          "y": 29
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1505,7 +1516,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Down-2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 27,
+                          "y": 29
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1541,7 +1563,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Down-3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 27,
+                          "y": 29
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1577,7 +1610,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Down-4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 27,
+                          "y": 29
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1625,7 +1669,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Right-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 14,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1661,7 +1716,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Right-2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 14,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1697,7 +1763,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Right-3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 14,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1733,7 +1810,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Right-4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 14,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1781,7 +1869,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Up-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 7,
+                          "y": 28
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1817,7 +1916,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Up-2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 7,
+                          "y": 28
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1853,7 +1963,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Up-3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 7,
+                          "y": 28
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1889,7 +2010,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Up-4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 7,
+                          "y": 28
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1937,7 +2069,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Left-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 19,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -1973,7 +2116,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Left-2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 19,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -2009,7 +2163,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Left-3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 19,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -2045,7 +2210,18 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Left-4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "SwordPoint",
+                          "x": 16,
+                          "y": 40
+                        },
+                        {
+                          "name": "GunPoint",
+                          "x": 19,
+                          "y": 30
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -3592,6 +3768,87 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "Sword",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Damage",
+              "value": ""
+            },
+            {
+              "name": "Knockback",
+              "value": ""
+            },
+            {
+              "name": "Swinging",
+              "value": "0"
+            },
+            {
+              "name": "Angles",
+              "children": [
+                {
+                  "name": "Down",
+                  "value": "90"
+                },
+                {
+                  "name": "Left",
+                  "value": "0"
+                },
+                {
+                  "name": "Right",
+                  "value": "0"
+                },
+                {
+                  "name": "Up",
+                  "value": "270"
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "value": "0"
+            },
+            {
+              "name": "Speed",
+              "value": "0.05"
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 7,
+                        "y": 40
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4570,6 +4827,698 @@
                   },
                   "parameters": [
                     "Player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Sword",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Weapon",
+                        "=",
+                        "\"Sword\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "Swinging",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Sword",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Swinging",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Sword.Variable(Angles[Player.AnimationName()])",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Swinging",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Down\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.PointX(\"SwordPoint\")+10",
+                        "=",
+                        "Player.PointY(\"SwordPoint\")-8"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.ZOrder()+1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Up\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.PointX(\"SwordPoint\")-10",
+                        "=",
+                        "Player.PointY(\"SwordPoint\")-8"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.ZOrder()-1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Left\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.PointX(\"SwordPoint\")+2",
+                        "=",
+                        "Player.PointY(\"SwordPoint\")-9"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.ZOrder()+1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Right\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.PointX(\"SwordPoint\")-2",
+                        "=",
+                        "Player.PointY(\"SwordPoint\")-9"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Sword",
+                        "=",
+                        "Player.ZOrder()+1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\"",
+                    "Sword.Variable(Speed)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Sword.Angle()+(45*Player.Variable(FacingLeft))",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\"",
+                    "Sword.Variable(Speed)*2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Sword.Angle()+(45*Player.Variable(FacingLeft))",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\"",
+                    "Sword.Variable(Speed)*3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Sword.Angle()+(45*Player.Variable(FacingLeft))",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\"",
+                    "Sword.Variable(Speed)*4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Sword.Angle()+(45*Player.Variable(FacingLeft))",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\"",
+                    "Sword.Variable(Speed)*5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "\"SwordSwing\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Sword"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Swinging",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Hit",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Temp Switch Weapons (Before Inventory is added)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Sword\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Sword",
+                    "0",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Sword"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Damage",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sword",
+                    "Knockback",
+                    "=",
+                    "2000"
                   ],
                   "subInstructions": []
                 }
