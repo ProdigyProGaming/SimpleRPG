@@ -2484,7 +2484,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "5"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2501,7 +2501,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "4"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2518,7 +2518,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "3"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2535,7 +2535,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "2"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2552,7 +2552,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "1"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2591,7 +2591,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "1"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2608,7 +2608,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "2"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2625,7 +2625,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "3"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2642,7 +2642,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "4"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2659,7 +2659,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "5"
+                          "value": "0"
                         }
                       ]
                     },
@@ -2676,7 +2676,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "6"
+                          "value": "0"
                         }
                       ]
                     }
@@ -3325,6 +3325,14 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "RandomShopVal",
+              "value": "1"
+            },
+            {
+              "name": "RandomItemVal",
+              "value": "1"
             }
           ],
           "behaviors": [],
@@ -4259,6 +4267,17 @@
                     "\"CurrencyTimer\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"AddStock\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4727,6 +4746,101 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomInRange(10, 20)",
+                    "\"AddStock\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ShopBackground",
+                    "RandomShopVal",
+                    "=",
+                    "RandomInRange(1, 8)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ShopBackground",
+                    "RandomItemVal",
+                    "=",
+                    "RandomInRange(1, 6)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "ShopBackground.Variable(Shops[\"Shop\"+ShopBackground.VariableString(RandomShopVal)][\"Item\"+ShopBackground.VariableString(RandomItemVal)].StockLeft)",
+                        "<",
+                        "10"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "ShopBackground",
+                        "Shops[\"Shop\"+ShopBackground.VariableString(RandomShopVal)][\"Item\"+ShopBackground.VariableString(RandomItemVal)].StockLeft",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"AddStock\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
