@@ -4655,6 +4655,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "ShopBackground.Variable(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].StockLeft)",
+                    ">=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -4685,6 +4697,31 @@
                     "UpdateText",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ShopBackground",
+                    "Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].StockLeft",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "ShopButtonStockLeft",
+                    "=",
+                    "ShopBackground.VariableString(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButtonStockLeft.VariableString(StockNumber)].StockLeft) + \" remaining\""
                   ],
                   "subInstructions": []
                 }
