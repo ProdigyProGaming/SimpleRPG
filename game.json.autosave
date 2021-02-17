@@ -524,13 +524,356 @@
         "name": "NewObject2-1-13.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "InventoryBackground-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "InventoryBackground-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "InventoryBackground-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "InventoryBackground-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-0 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-0 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-1 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-1 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1-2 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1-2 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "ReadyToUpdate",
+      "value": "0"
+    },
+    {
+      "name": "Inventory",
+      "children": [
+        {
+          "name": "Slot01",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Sword1"
+            },
+            {
+              "name": "Quantity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "Slot02",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Sword2"
+            },
+            {
+              "name": "Quantity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "Slot03",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot04",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot05",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot06",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot07",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot08",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot09",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot10",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot11",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot12",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot13",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot14",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot15",
+          "children": [
+            {
+              "name": "Item",
+              "value": "Empty"
+            },
+            {
+              "name": "Quantity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TempSlot",
+      "children": [
+        {
+          "name": "Item",
+          "value": "Empty"
+        },
+        {
+          "name": "Quantity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "ItemToAdd",
+      "children": [
+        {
+          "name": "Item",
+          "value": ""
+        },
+        {
+          "name": "Quantity",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "AllSlotsChecked",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -556,7 +899,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.736
+        "zoomFactor": 0.592
       },
       "objectsGroups": [],
       "variables": [],
@@ -1472,6 +1815,652 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryBackground",
+          "persistentUuid": "defbdee4-336c-4cc0-8840-28a2c30348dc",
+          "width": 0,
+          "x": 389,
+          "y": 208,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "7f56c439-169a-4c76-be00-76c3f15e1608",
+          "width": 0,
+          "x": 412,
+          "y": 227,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "a19cf2e2-a101-403b-b1e1-e2c9d39db9f4",
+          "width": 0,
+          "x": 506,
+          "y": 225,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "e109d1d7-ddaa-40e9-adde-be415db70188",
+          "width": 0,
+          "x": 604,
+          "y": 229,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "7ac7226a-45a5-4381-b035-c8806df4e732",
+          "width": 0,
+          "x": 698,
+          "y": 228,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "65fad53a-b0fb-4869-bfa2-5bd2af4799fe",
+          "width": 0,
+          "x": 793,
+          "y": 226,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "267ca157-475b-43a8-90d0-0d48b7d86285",
+          "width": 0,
+          "x": 413,
+          "y": 319,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "afb1e6ed-3ca1-4546-bff4-dd0e3befea67",
+          "width": 0,
+          "x": 503,
+          "y": 314,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "cbb5c18d-1d12-4147-976c-30c070ebc47c",
+          "width": 0,
+          "x": 612,
+          "y": 312,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "1b7a0f65-b367-4f34-b8a7-2d1ba0913517",
+          "width": 0,
+          "x": 698,
+          "y": 315,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "81a39d0a-7513-480f-8858-c4c13b4e161e",
+          "width": 0,
+          "x": 798,
+          "y": 315,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "d9391d33-ce82-4c62-93b7-b5abede5cc39",
+          "width": 0,
+          "x": 461,
+          "y": 265,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "39773cff-6d98-4070-8627-a3ae45715425",
+          "width": 0,
+          "x": 554,
+          "y": 261,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "4eb5b136-e0f5-4ed6-a4e8-16be34843124",
+          "width": 0,
+          "x": 653,
+          "y": 266,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "98d5ca86-6981-415d-bf99-b18fe0d900d3",
+          "width": 0,
+          "x": 745,
+          "y": 266,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "7f6a91ad-b6cf-49f8-acdc-f17b3f862fbe",
+          "width": 0,
+          "x": 841,
+          "y": 264,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "30a406e4-085d-4ba6-83a3-21756d72b3f4",
+          "width": 0,
+          "x": 457,
+          "y": 356,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "acb1e7b7-c442-42b7-aeeb-bd0576a28d4f",
+          "width": 0,
+          "x": 547,
+          "y": 348,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "4aefb97d-a308-4b2d-820d-0e91f499008f",
+          "width": 0,
+          "x": 658,
+          "y": 349,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "2a105dff-1256-45a5-8a96-dd96ca353d5f",
+          "width": 0,
+          "x": 744,
+          "y": 353,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "c3560f4c-0f03-42b6-a0ff-95f54e5e213b",
+          "width": 0,
+          "x": 845,
+          "y": 354,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "c6840435-db58-4839-af4d-f2be8709dd05",
+          "width": 0,
+          "x": 850,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "b27298b4-f712-4bf5-9592-056977301cf2",
+          "width": 0,
+          "x": 950,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "58dc7628-4aab-4300-bd2c-300be3f61914",
+          "width": 0,
+          "x": 1050,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "cf16d462-20f6-4a46-b40d-60d73be141b3",
+          "width": 0,
+          "x": 1150,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "0087823b-f2b0-4adf-ad7f-49380ae4afe4",
+          "width": 0,
+          "x": 750,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "97b9fc39-fb63-488c-bc44-1538652feb53",
+          "width": 0,
+          "x": 800,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "9f6abcb3-c48d-4c8a-ab58-86045b2d4da0",
+          "width": 0,
+          "x": 900,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "438ef917-239e-4223-bf89-2916384bb588",
+          "width": 0,
+          "x": 1000,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "1db22ba6-bd71-4b30-830b-164d64cf1ab0",
+          "width": 0,
+          "x": 1100,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "86004bdd-03e5-4f53-9702-6c8dbb9989fe",
+          "width": 0,
+          "x": 1200,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
         }
       ],
       "objects": [
@@ -4204,6 +5193,490 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "InventoryBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "InventoryBackground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "InventoryBackground-1-0.png",
+                      "points": [
+                        {
+                          "name": "Slot01",
+                          "x": 32,
+                          "y": 32
+                        },
+                        {
+                          "name": "Slot02",
+                          "x": 106,
+                          "y": 32
+                        },
+                        {
+                          "name": "Slot03",
+                          "x": 180,
+                          "y": 32
+                        },
+                        {
+                          "name": "Slot04",
+                          "x": 254,
+                          "y": 32
+                        },
+                        {
+                          "name": "Slot05",
+                          "x": 328,
+                          "y": 32
+                        },
+                        {
+                          "name": "Slot06",
+                          "x": 32,
+                          "y": 106
+                        },
+                        {
+                          "name": "Slot07",
+                          "x": 106,
+                          "y": 106
+                        },
+                        {
+                          "name": "Slot08",
+                          "x": 180,
+                          "y": 106
+                        },
+                        {
+                          "name": "Slot09",
+                          "x": 254,
+                          "y": 106
+                        },
+                        {
+                          "name": "Slot10",
+                          "x": 328,
+                          "y": 106
+                        },
+                        {
+                          "name": "Quantity01",
+                          "x": 72,
+                          "y": 67
+                        },
+                        {
+                          "name": "Quantity02",
+                          "x": 146,
+                          "y": 67
+                        },
+                        {
+                          "name": "Quantity03",
+                          "x": 220,
+                          "y": 67
+                        },
+                        {
+                          "name": "Quantity04",
+                          "x": 294,
+                          "y": 67
+                        },
+                        {
+                          "name": "Quantity05",
+                          "x": 368,
+                          "y": 67
+                        },
+                        {
+                          "name": "Quantity06",
+                          "x": 72,
+                          "y": 141
+                        },
+                        {
+                          "name": "Quantity07",
+                          "x": 146,
+                          "y": 141
+                        },
+                        {
+                          "name": "Quantity08",
+                          "x": 220,
+                          "y": 141
+                        },
+                        {
+                          "name": "Quantity09",
+                          "x": 294,
+                          "y": 141
+                        },
+                        {
+                          "name": "Quantity10",
+                          "x": 368,
+                          "y": 141
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "InventorySlot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Slot",
+              "value": "0"
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Potion1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "InventoryMovingSlot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "LastSlot",
+              "value": "0"
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-0 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sword3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-1 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Potion1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slot-1-2 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "InventoryQuantity",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "Slot",
+              "value": "0"
+            }
+          ],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -4254,6 +5727,17 @@
                   "parameters": [
                     "",
                     "\"ShopUI\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
                   ],
                   "subInstructions": []
                 },
@@ -4759,7 +6243,7 @@
                   },
                   "parameters": [
                     "",
-                    "RandomInRange(2, 2)",
+                    "RandomInRange(10, 20)",
                     "\"AddStock\""
                   ],
                   "subInstructions": []
@@ -4775,7 +6259,7 @@
                     "ShopBackground",
                     "RandomShopVal",
                     "=",
-                    "RandomInRange(1, 2)"
+                    "RandomInRange(1, 8)"
                   ],
                   "subInstructions": []
                 },
@@ -4807,7 +6291,7 @@
                       "parameters": [
                         "ShopBackground.Variable(Shops[\"Shop\"+ShopBackground.VariableString(RandomShopVal)][\"Item\"+ShopBackground.VariableString(RandomItemVal)].StockLeft)",
                         "<",
-                        "1"
+                        "10"
                       ],
                       "subInstructions": []
                     }
@@ -4851,7 +6335,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Solid Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4901,7 +6385,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5467,7 +6951,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Sword",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6053,7 +7537,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Gun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6529,7 +8013,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Health Managment",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6636,7 +8120,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Coins Management",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6765,7 +8249,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Temp Switch Weapons (Before Inventory is added)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7071,7 +8555,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Temp Damage (Before Enemies Added)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7140,7 +8624,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Temp Spend Money (Before Implementing Buying items)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7269,6 +8753,934 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Inventory",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "InventorySlot"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "InventorySlot",
+                        "Slot",
+                        "<=",
+                        "10"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "InventoryQuantity",
+                        "Slot",
+                        "<=",
+                        "10"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "InventorySlot",
+                        "=",
+                        "InventoryBackground.PointX(\"Slot\" + InventorySlot.VariableString(Slot))",
+                        "=",
+                        "InventoryBackground.PointY(\"Slot\" + InventorySlot.VariableString(Slot))"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "InventoryQuantity",
+                        "=",
+                        "InventoryBackground.PointX(\"Quantity\" + InventoryQuantity.VariableString(Slot))",
+                        "=",
+                        "InventoryBackground.PointY(\"Quantity\" + InventoryQuantity.VariableString(Slot))"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "ReadyToUpdate",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Tab"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "ReadyToUpdate",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "ReadyToUpdate",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "InventorySlot"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "InventorySlot",
+                        "GlobalVariableString(Inventory[\"Slot\" + InventorySlot.VariableString(Slot)].Item)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "InventoryQuantity",
+                        "=",
+                        "GlobalVariableString(Inventory[\"Slot\" + InventoryQuantity.VariableString(Slot)].Quantity)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "InventorySlot",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "InventoryQuantity",
+                        "Slot",
+                        "=",
+                        "InventorySlot.Variable(Slot)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "InventoryMovingSlot",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "InventorySlot.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeLayer"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "\"Inventory\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "InventorySlot",
+                        "\"Empty\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "LastSlot",
+                        "=",
+                        "InventorySlot.VariableString(Slot)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "InventoryQuantity",
+                        "=",
+                        "\"0\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "InventoryMovingSlot",
+                        "=",
+                        "MouseX()",
+                        "=",
+                        "MouseY()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "InventorySlot",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "InventorySlot",
+                                "Slot",
+                                "=",
+                                "InventoryMovingSlot.VariableString(LastSlot)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "InventoryMovingSlot",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "ReadyToUpdate",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "InventorySlot",
+                                "Slot",
+                                "=",
+                                "InventoryMovingSlot.VariableString(LastSlot)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "InventoryMovingSlot",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "ReadyToUpdate",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "AnimationName"
+                                  },
+                                  "parameters": [
+                                    "InventorySlot",
+                                    "\"Empty\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Item",
+                                    "=",
+                                    "GlobalVariableString(Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Item)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Quantity",
+                                    "=",
+                                    "GlobalVariable(Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Quantity)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Item",
+                                    "=",
+                                    "\"Empty\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Quantity",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "InventoryMovingSlot",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "ReadyToUpdate",
+                                    "=",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "AnimationName"
+                                  },
+                                  "parameters": [
+                                    "InventorySlot",
+                                    "\"Empty\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "TempSlot.Item",
+                                    "=",
+                                    "GlobalVariableString(Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Item)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "TempSlot.Quantity",
+                                    "=",
+                                    "GlobalVariable(Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Quantity)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Item",
+                                    "=",
+                                    "GlobalVariableString(Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Item)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventorySlot.VariableString(Slot)].Quantity",
+                                    "=",
+                                    "GlobalVariable(Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Quantity)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobalTxt"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Item",
+                                    "=",
+                                    "GlobalVariableString(TempSlot.Item)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Inventory[\"Slot\"+InventoryMovingSlot.VariableString(LastSlot)].Quantity",
+                                    "=",
+                                    "GlobalVariable(TempSlot.Quantity)"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "InventoryMovingSlot",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "ReadyToUpdate",
+                                    "=",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Escape"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "LayerVisible"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Inventory\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "InventoryMovingSlot",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "ReadyToUpdate",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -7323,6 +9735,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "ShopUI",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Inventory",
           "visibility": true,
           "cameras": [],
           "effects": []
