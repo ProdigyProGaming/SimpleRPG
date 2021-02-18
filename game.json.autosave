@@ -731,11 +731,2129 @@
         "name": "Gun1-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestFarm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestFarm.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestFarm2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestFarm2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-19.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Direction",
+          "value": "0"
+        },
+        {
+          "name": "Weapon",
+          "value": "Empty"
+        },
+        {
+          "name": "FacingLeft",
+          "value": "1"
+        },
+        {
+          "name": "Invulnerability",
+          "value": "0"
+        },
+        {
+          "name": "GunDrawn",
+          "value": "0"
+        },
+        {
+          "name": "Health",
+          "value": "100"
+        },
+        {
+          "name": "Coins",
+          "value": "0"
+        },
+        {
+          "name": "CoinsSpeed",
+          "value": "1"
+        },
+        {
+          "name": "CoinsPerUnit",
+          "value": "1"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 99999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 99999,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Down-1.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 27,
+                      "y": 29
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Down-2.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 27,
+                      "y": 29
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Down-3.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 27,
+                      "y": 29
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Down-4.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 27,
+                      "y": 29
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right-1.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 14,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right-2.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 14,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right-3.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 14,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right-4.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 14,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up-1.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 7,
+                      "y": 28
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up-2.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 7,
+                      "y": 28
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up-3.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 7,
+                      "y": 28
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up-4.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 7,
+                      "y": 28
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left-1.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 19,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left-2.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 19,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left-3.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 19,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left-4.png",
+                  "points": [
+                    {
+                      "name": "SwordPoint",
+                      "x": 16,
+                      "y": 40
+                    },
+                    {
+                      "name": "GunPoint",
+                      "x": 19,
+                      "y": 30
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 30
+                      },
+                      {
+                        "x": 32,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gun",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Damage",
+          "value": ""
+        },
+        {
+          "name": "Range",
+          "value": ""
+        },
+        {
+          "name": "Speed",
+          "value": ""
+        },
+        {
+          "name": "OnCoolDown",
+          "value": "0"
+        },
+        {
+          "name": "BulletSpeed",
+          "value": ""
+        },
+        {
+          "name": "GunLevels",
+          "children": [
+            {
+              "name": "Gun1",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "500"
+                },
+                {
+                  "name": "Damage",
+                  "value": "10"
+                },
+                {
+                  "name": "Range",
+                  "value": "300"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.4"
+                }
+              ]
+            },
+            {
+              "name": "Gun2",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "550"
+                },
+                {
+                  "name": "Damage",
+                  "value": "12"
+                },
+                {
+                  "name": "Range",
+                  "value": "350"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.3"
+                }
+              ]
+            },
+            {
+              "name": "Gun3",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "450"
+                },
+                {
+                  "name": "Damage",
+                  "value": "15"
+                },
+                {
+                  "name": "Range",
+                  "value": "400"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.2"
+                }
+              ]
+            },
+            {
+              "name": "Gun4",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "400"
+                },
+                {
+                  "name": "Damage",
+                  "value": "20"
+                },
+                {
+                  "name": "Range",
+                  "value": "450"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.4"
+                }
+              ]
+            },
+            {
+              "name": "Gun5",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "600"
+                },
+                {
+                  "name": "Damage",
+                  "value": "25"
+                },
+                {
+                  "name": "Range",
+                  "value": "500"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.6"
+                }
+              ]
+            },
+            {
+              "name": "Gun6",
+              "children": [
+                {
+                  "name": "BulletSpeed",
+                  "value": "500"
+                },
+                {
+                  "name": "Damage",
+                  "value": "30"
+                },
+                {
+                  "name": "Range",
+                  "value": "600"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-10.png",
+                  "points": [
+                    {
+                      "name": "BulletSpawn",
+                      "x": 17,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 5,
+                    "y": 18
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sword",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Damage",
+          "value": "10"
+        },
+        {
+          "name": "Knockback",
+          "value": "2000"
+        },
+        {
+          "name": "Swinging",
+          "value": "0"
+        },
+        {
+          "name": "Angles",
+          "children": [
+            {
+              "name": "Down",
+              "value": "90"
+            },
+            {
+              "name": "Left",
+              "value": "0"
+            },
+            {
+              "name": "Right",
+              "value": "0"
+            },
+            {
+              "name": "Up",
+              "value": "270"
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "value": "0"
+        },
+        {
+          "name": "Speed",
+          "value": "0.05"
+        },
+        {
+          "name": "SwordLevels",
+          "children": [
+            {
+              "name": "Sword1",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "10"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "2000"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.08"
+                }
+              ]
+            },
+            {
+              "name": "Sword2",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "20"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "2500"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.06"
+                }
+              ]
+            },
+            {
+              "name": "Sword3",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "30"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "3000"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.05"
+                }
+              ]
+            },
+            {
+              "name": "Sword4",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "40"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "3500"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.03"
+                }
+              ]
+            },
+            {
+              "name": "Sword5",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "50"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "4000"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.02"
+                }
+              ]
+            },
+            {
+              "name": "Sword6",
+              "children": [
+                {
+                  "name": "Damage",
+                  "value": "60"
+                },
+                {
+                  "name": "Knockback",
+                  "value": "4500"
+                },
+                {
+                  "name": "Speed",
+                  "value": "0.01"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 7,
+                    "y": 40
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 7,
+                    "y": 40
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HealthBarBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "UpdateHealth",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "HealthBarValue",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Health: 100",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "CurrencyText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "UpdateText",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "InventoryBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "InventoryBackground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "InventoryBackground-1-1.png",
+                  "points": [
+                    {
+                      "name": "Slot01",
+                      "x": 32,
+                      "y": 32
+                    },
+                    {
+                      "name": "Slot02",
+                      "x": 106,
+                      "y": 32
+                    },
+                    {
+                      "name": "Slot03",
+                      "x": 180,
+                      "y": 32
+                    },
+                    {
+                      "name": "Slot04",
+                      "x": 254,
+                      "y": 32
+                    },
+                    {
+                      "name": "Slot05",
+                      "x": 328,
+                      "y": 32
+                    },
+                    {
+                      "name": "Slot06",
+                      "x": 32,
+                      "y": 106
+                    },
+                    {
+                      "name": "Slot07",
+                      "x": 106,
+                      "y": 106
+                    },
+                    {
+                      "name": "Slot08",
+                      "x": 180,
+                      "y": 106
+                    },
+                    {
+                      "name": "Slot09",
+                      "x": 254,
+                      "y": 106
+                    },
+                    {
+                      "name": "Slot10",
+                      "x": 328,
+                      "y": 106
+                    },
+                    {
+                      "name": "Quantity01",
+                      "x": 72,
+                      "y": 67
+                    },
+                    {
+                      "name": "Quantity02",
+                      "x": 146,
+                      "y": 67
+                    },
+                    {
+                      "name": "Quantity03",
+                      "x": 220,
+                      "y": 67
+                    },
+                    {
+                      "name": "Quantity04",
+                      "x": 294,
+                      "y": 67
+                    },
+                    {
+                      "name": "Quantity05",
+                      "x": 368,
+                      "y": 67
+                    },
+                    {
+                      "name": "Quantity06",
+                      "x": 72,
+                      "y": 141
+                    },
+                    {
+                      "name": "Quantity07",
+                      "x": 146,
+                      "y": 141
+                    },
+                    {
+                      "name": "Quantity08",
+                      "x": 220,
+                      "y": 141
+                    },
+                    {
+                      "name": "Quantity09",
+                      "x": 294,
+                      "y": 141
+                    },
+                    {
+                      "name": "Quantity10",
+                      "x": 368,
+                      "y": 141
+                    },
+                    {
+                      "name": "TrashSlot",
+                      "x": 420,
+                      "y": 68
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 250,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InventorySlot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Slot",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Potion1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gun1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gun1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InventoryTrashSlot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Empty-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InventoryMovingSlot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "LastSlot",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1 - Copy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-0 - Copy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sword3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-1 - Copy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Potion1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Slot-1-2 - Copy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gun1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gun1-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HotBarSelection",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "InventoryQuantity",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Slot",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "ChangeSceneInteraction",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "SceneToSwitchTo",
+          "value": ""
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -983,14 +3101,43 @@
     {
       "name": "BlockMouseClick",
       "value": "0"
+    },
+    {
+      "name": "LastSceneLoaded",
+      "value": "Town Center"
+    },
+    {
+      "name": "Player",
+      "children": [
+        {
+          "name": "Coins",
+          "value": "0"
+        },
+        {
+          "name": "CoinsPerUnit",
+          "value": "1"
+        },
+        {
+          "name": "CoinsSpeed",
+          "value": "1"
+        },
+        {
+          "name": "Health",
+          "value": "100"
+        },
+        {
+          "name": "Weapon",
+          "value": "Empty"
+        }
+      ]
     }
   ],
   "layouts": [
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "Town_32Center",
+      "name": "Town Center",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -1010,7 +3157,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.52
+        "zoomFactor": 0.808
       },
       "objectsGroups": [
         {
@@ -1057,9 +3204,9 @@
           "name": "NewObject",
           "persistentUuid": "ffbcd25f-0682-41d2-8d99-5d594b21169a",
           "width": 0,
-          "x": 1,
+          "x": 0,
           "y": 0,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1074,7 +3221,7 @@
           "persistentUuid": "6f6ea205-4281-4da1-8e61-332a89bf4030",
           "width": 0,
           "x": 384,
-          "y": 269,
+          "y": 258,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1089,7 +3236,7 @@
           "name": "SolidObject",
           "persistentUuid": "389b55e0-51e7-495a-82cc-ff19d5d9252a",
           "width": 80,
-          "x": 257,
+          "x": 256,
           "y": 167,
           "zOrder": 3,
           "numberProperties": [],
@@ -1105,7 +3252,7 @@
           "name": "SolidObject",
           "persistentUuid": "3d7df8f8-b5fd-44c4-8f19-03181b326ae4",
           "width": 80,
-          "x": 81,
+          "x": 80,
           "y": 167,
           "zOrder": 3,
           "numberProperties": [],
@@ -1121,7 +3268,7 @@
           "name": "SolidObject",
           "persistentUuid": "4c87e0c0-2cc6-4a9e-a873-bed8b27ba952",
           "width": 80,
-          "x": 81,
+          "x": 80,
           "y": 375,
           "zOrder": 3,
           "numberProperties": [],
@@ -1137,7 +3284,7 @@
           "name": "SolidObject",
           "persistentUuid": "39cf31fa-295d-4025-bca0-c50fc200ff68",
           "width": 80,
-          "x": 257,
+          "x": 256,
           "y": 375,
           "zOrder": 3,
           "numberProperties": [],
@@ -1153,7 +3300,7 @@
           "name": "SolidObject",
           "persistentUuid": "bda74f48-42ea-4e19-9b3a-1930055f890c",
           "width": 80,
-          "x": 465,
+          "x": 464,
           "y": 167,
           "zOrder": 3,
           "numberProperties": [],
@@ -1169,7 +3316,7 @@
           "name": "SolidObject",
           "persistentUuid": "ad886099-b39f-4c06-b675-248474bb10df",
           "width": 80,
-          "x": 641,
+          "x": 640,
           "y": 167,
           "zOrder": 3,
           "numberProperties": [],
@@ -1185,7 +3332,7 @@
           "name": "SolidObject",
           "persistentUuid": "7241df1e-0e67-464e-9a3a-7bf34bf81363",
           "width": 80,
-          "x": 465,
+          "x": 464,
           "y": 375,
           "zOrder": 3,
           "numberProperties": [],
@@ -1201,7 +3348,7 @@
           "name": "SolidObject",
           "persistentUuid": "6d38b0ca-78c8-40dd-8256-b1f54b13a015",
           "width": 80,
-          "x": 641,
+          "x": 640,
           "y": 375,
           "zOrder": 3,
           "numberProperties": [],
@@ -1217,7 +3364,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "be2d230a-724a-408d-9bb4-9342eacf2c6b",
           "width": 80,
-          "x": 465,
+          "x": 464,
           "y": 251,
           "zOrder": 4,
           "numberProperties": [],
@@ -1238,7 +3385,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "d3f4e88f-e97c-4a3d-838c-ad6fe60783c2",
           "width": 80,
-          "x": 641,
+          "x": 640,
           "y": 251,
           "zOrder": 4,
           "numberProperties": [],
@@ -1259,7 +3406,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "9b632e5a-7c79-45c0-b527-733959820245",
           "width": 80,
-          "x": 257,
+          "x": 256,
           "y": 251,
           "zOrder": 4,
           "numberProperties": [],
@@ -1280,7 +3427,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "8a4c6c50-3db8-4181-bda7-ced848429a8d",
           "width": 80,
-          "x": 81,
+          "x": 80,
           "y": 251,
           "zOrder": 4,
           "numberProperties": [],
@@ -1301,7 +3448,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "5df29119-36d9-483c-b1f3-6e674afdf0be",
           "width": 80,
-          "x": 81,
+          "x": 80,
           "y": 459,
           "zOrder": 4,
           "numberProperties": [],
@@ -1322,7 +3469,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "d390dc41-49d7-45b9-8d13-7577ee77baef",
           "width": 80,
-          "x": 257,
+          "x": 256,
           "y": 459,
           "zOrder": 4,
           "numberProperties": [],
@@ -1343,7 +3490,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "0de6ab8a-2b80-4fd6-ac47-2cc63542544d",
           "width": 80,
-          "x": 465,
+          "x": 464,
           "y": 459,
           "zOrder": 4,
           "numberProperties": [],
@@ -1364,7 +3511,7 @@
           "name": "ShopInteraction",
           "persistentUuid": "83067c9f-20f0-4a13-baf6-34fa8172cb9e",
           "width": 80,
-          "x": 641,
+          "x": 640,
           "y": 459,
           "zOrder": 4,
           "numberProperties": [],
@@ -1900,7 +4047,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "HealthBarBackground",
           "persistentUuid": "19f75480-b610-474b-9fba-c13d94e61aad",
@@ -1916,7 +4063,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "HealthBar",
           "persistentUuid": "b3b156ea-58f6-45f8-a1ee-a91d20327540",
@@ -1932,12 +4079,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "HealthBarValue",
           "persistentUuid": "cc5300e4-776e-4987-8e5e-cbd2a37e0c07",
           "width": 0,
-          "x": 515,
+          "x": 518,
           "y": 17,
           "zOrder": 13,
           "numberProperties": [],
@@ -1948,7 +4095,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "CurrencyText",
           "persistentUuid": "228336db-2061-4192-9c1b-60bf2338f6b9",
@@ -2400,7 +4547,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventorySlot",
           "persistentUuid": "c6840435-db58-4839-af4d-f2be8709dd05",
@@ -2421,7 +4568,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventorySlot",
           "persistentUuid": "b27298b4-f712-4bf5-9592-056977301cf2",
@@ -2442,7 +4589,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventorySlot",
           "persistentUuid": "58dc7628-4aab-4300-bd2c-300be3f61914",
@@ -2463,7 +4610,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventorySlot",
           "persistentUuid": "cf16d462-20f6-4a46-b40d-60d73be141b3",
@@ -2484,7 +4631,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventorySlot",
           "persistentUuid": "0087823b-f2b0-4adf-ad7f-49380ae4afe4",
@@ -2505,7 +4652,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventoryQuantity",
           "persistentUuid": "97b9fc39-fb63-488c-bc44-1538652feb53",
@@ -2526,7 +4673,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventoryQuantity",
           "persistentUuid": "9f6abcb3-c48d-4c8a-ab58-86045b2d4da0",
@@ -2547,7 +4694,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventoryQuantity",
           "persistentUuid": "438ef917-239e-4223-bf89-2916384bb588",
@@ -2568,7 +4715,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventoryQuantity",
           "persistentUuid": "1db22ba6-bd71-4b30-830b-164d64cf1ab0",
@@ -2589,7 +4736,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "InventoryQuantity",
           "persistentUuid": "86004bdd-03e5-4f53-9702-6c8dbb9989fe",
@@ -2610,7 +4757,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "HUD",
           "locked": false,
           "name": "HotBarSelection",
           "persistentUuid": "bdcac38a-0a80-4fbb-a6bb-a204df4bd60b",
@@ -2669,6 +4816,27 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "ChangeSceneInteraction",
+          "persistentUuid": "5becafa4-9f35-4ef0-95c8-f66e7fb7014f",
+          "width": 0,
+          "x": 369,
+          "y": -48,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SceneToSwitchTo",
+              "value": "Farm"
+            }
+          ]
         }
       ],
       "objects": [
@@ -2704,868 +4872,6 @@
                         "y": 0
                       },
                       "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Player",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Direction",
-              "value": "0"
-            },
-            {
-              "name": "Weapon",
-              "value": "Empty"
-            },
-            {
-              "name": "FacingLeft",
-              "value": "1"
-            },
-            {
-              "name": "Invulnerability",
-              "value": "0"
-            },
-            {
-              "name": "GunDrawn",
-              "value": "0"
-            },
-            {
-              "name": "Health",
-              "value": "100"
-            },
-            {
-              "name": "Coins",
-              "value": "0"
-            },
-            {
-              "name": "CoinsSpeed",
-              "value": "1"
-            },
-            {
-              "name": "CoinsPerUnit",
-              "value": "1"
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 99999,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 99999,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Down",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Down-1.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 27,
-                          "y": 29
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Down-2.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 27,
-                          "y": 29
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Down-3.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 27,
-                          "y": 29
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Down-4.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 27,
-                          "y": 29
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right-1.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 14,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right-2.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 14,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right-3.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 14,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Right-4.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 14,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Up",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Up-1.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 7,
-                          "y": 28
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Up-2.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 7,
-                          "y": 28
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Up-3.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 7,
-                          "y": 28
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Up-4.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 7,
-                          "y": 28
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left-1.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 19,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left-2.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 19,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left-3.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 19,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Left-4.png",
-                      "points": [
-                        {
-                          "name": "SwordPoint",
-                          "x": 16,
-                          "y": 40
-                        },
-                        {
-                          "name": "GunPoint",
-                          "x": 19,
-                          "y": 30
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 30
-                          },
-                          {
-                            "x": 32,
-                            "y": 40
-                          },
-                          {
-                            "x": 0,
-                            "y": 40
-                          }
-                        ]
-                      ]
                     }
                   ]
                 }
@@ -5089,1326 +6395,6 @@
             "g": 0,
             "r": 0
           }
-        },
-        {
-          "name": "Sword",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Damage",
-              "value": "10"
-            },
-            {
-              "name": "Knockback",
-              "value": "2000"
-            },
-            {
-              "name": "Swinging",
-              "value": "0"
-            },
-            {
-              "name": "Angles",
-              "children": [
-                {
-                  "name": "Down",
-                  "value": "90"
-                },
-                {
-                  "name": "Left",
-                  "value": "0"
-                },
-                {
-                  "name": "Right",
-                  "value": "0"
-                },
-                {
-                  "name": "Up",
-                  "value": "270"
-                }
-              ]
-            },
-            {
-              "name": "Hit",
-              "value": "0"
-            },
-            {
-              "name": "Speed",
-              "value": "0.05"
-            },
-            {
-              "name": "SwordLevels",
-              "children": [
-                {
-                  "name": "Sword1",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "10"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "2000"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.08"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sword2",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "20"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "2500"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.06"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sword3",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "30"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "3000"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.05"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sword4",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "40"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "3500"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.03"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sword5",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "50"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "4000"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.02"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sword6",
-                  "children": [
-                    {
-                      "name": "Damage",
-                      "value": "60"
-                    },
-                    {
-                      "name": "Knockback",
-                      "value": "4500"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.01"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 7,
-                        "y": 40
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 7,
-                        "y": 40
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Gun",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Damage",
-              "value": ""
-            },
-            {
-              "name": "Range",
-              "value": ""
-            },
-            {
-              "name": "Speed",
-              "value": ""
-            },
-            {
-              "name": "OnCoolDown",
-              "value": "0"
-            },
-            {
-              "name": "BulletSpeed",
-              "value": ""
-            },
-            {
-              "name": "GunLevels",
-              "children": [
-                {
-                  "name": "Gun1",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "500"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "10"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "300"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.4"
-                    }
-                  ]
-                },
-                {
-                  "name": "Gun2",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "550"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "12"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "350"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.3"
-                    }
-                  ]
-                },
-                {
-                  "name": "Gun3",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "450"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "15"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "400"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.2"
-                    }
-                  ]
-                },
-                {
-                  "name": "Gun4",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "400"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "20"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "450"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.4"
-                    }
-                  ]
-                },
-                {
-                  "name": "Gun5",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "600"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "25"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "500"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.6"
-                    }
-                  ]
-                },
-                {
-                  "name": "Gun6",
-                  "children": [
-                    {
-                      "name": "BulletSpeed",
-                      "value": "500"
-                    },
-                    {
-                      "name": "Damage",
-                      "value": "30"
-                    },
-                    {
-                      "name": "Range",
-                      "value": "600"
-                    },
-                    {
-                      "name": "Speed",
-                      "value": "0.3"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-10.png",
-                      "points": [
-                        {
-                          "name": "BulletSpawn",
-                          "x": 17,
-                          "y": 3
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 5,
-                        "y": 18
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bullet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "HealthBarBackground",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "HealthBar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "UpdateHealth",
-              "value": "0"
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "HealthBarValue",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Health: 100",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "CurrencyText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "UpdateText",
-              "value": "0"
-            }
-          ],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "InventoryBackground",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "InventoryBackground",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "InventoryBackground-1-1.png",
-                      "points": [
-                        {
-                          "name": "Slot01",
-                          "x": 32,
-                          "y": 32
-                        },
-                        {
-                          "name": "Slot02",
-                          "x": 106,
-                          "y": 32
-                        },
-                        {
-                          "name": "Slot03",
-                          "x": 180,
-                          "y": 32
-                        },
-                        {
-                          "name": "Slot04",
-                          "x": 254,
-                          "y": 32
-                        },
-                        {
-                          "name": "Slot05",
-                          "x": 328,
-                          "y": 32
-                        },
-                        {
-                          "name": "Slot06",
-                          "x": 32,
-                          "y": 106
-                        },
-                        {
-                          "name": "Slot07",
-                          "x": 106,
-                          "y": 106
-                        },
-                        {
-                          "name": "Slot08",
-                          "x": 180,
-                          "y": 106
-                        },
-                        {
-                          "name": "Slot09",
-                          "x": 254,
-                          "y": 106
-                        },
-                        {
-                          "name": "Slot10",
-                          "x": 328,
-                          "y": 106
-                        },
-                        {
-                          "name": "Quantity01",
-                          "x": 72,
-                          "y": 67
-                        },
-                        {
-                          "name": "Quantity02",
-                          "x": 146,
-                          "y": 67
-                        },
-                        {
-                          "name": "Quantity03",
-                          "x": 220,
-                          "y": 67
-                        },
-                        {
-                          "name": "Quantity04",
-                          "x": 294,
-                          "y": 67
-                        },
-                        {
-                          "name": "Quantity05",
-                          "x": 368,
-                          "y": 67
-                        },
-                        {
-                          "name": "Quantity06",
-                          "x": 72,
-                          "y": 141
-                        },
-                        {
-                          "name": "Quantity07",
-                          "x": 146,
-                          "y": 141
-                        },
-                        {
-                          "name": "Quantity08",
-                          "x": 220,
-                          "y": 141
-                        },
-                        {
-                          "name": "Quantity09",
-                          "x": 294,
-                          "y": 141
-                        },
-                        {
-                          "name": "Quantity10",
-                          "x": 368,
-                          "y": 141
-                        },
-                        {
-                          "name": "TrashSlot",
-                          "x": 420,
-                          "y": 68
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 250,
-                        "y": 100
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "InventorySlot",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "Slot",
-              "value": "0"
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Empty",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Potion1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Gun1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gun1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "InventoryTrashSlot",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Empty",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Empty-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sword1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sword2-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sword3-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Potion1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Potion1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Gun1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gun1-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "InventoryMovingSlot",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "LastSlot",
-              "value": "0"
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Empty",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1 - Copy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-0 - Copy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sword3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-1 - Copy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Potion1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Slot-1-2 - Copy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Gun1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gun1-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "InventoryQuantity",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [
-            {
-              "name": "Slot",
-              "value": "0"
-            }
-          ],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "HotBarSelection",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -6524,6 +6510,108 @@
                     "ReadyToUpdate",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "UpdateHealth",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "CurrencyText",
+                    "UpdateText",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "LastSceneLoaded",
+                        "=",
+                        "\"Farm\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "383",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "LastSceneLoaded",
+                        "=",
+                        "\"Town Center\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FixCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    "0",
+                    "0",
+                    "1600",
+                    "800",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -7206,7 +7294,7 @@
                   "parameters": [
                     "ShopBackground.Variable(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].Price)",
                     "<=",
-                    "Player.Variable(Coins)"
+                    "GlobalVariable(Player.Coins)"
                   ],
                   "subInstructions": []
                 },
@@ -7235,11 +7323,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "Coins",
+                    "Player.Coins",
                     "-",
                     "ShopBackground.Variable(Shops[\"Shop\"+ShopInteraction.VariableString(ShopNumber)][\"Item\"+ShopButton.VariableString(ButtonNumber)].Price)"
                   ],
@@ -7583,19 +7670,6 @@
                         "1"
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        "FacingLeft",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -7639,19 +7713,6 @@
                         "Direction",
                         "=",
                         "2"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        "FacingLeft",
-                        "=",
-                        "-1"
                       ],
                       "subInstructions": []
                     }
@@ -7699,19 +7760,6 @@
                         "3"
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        "FacingLeft",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -7755,19 +7803,6 @@
                         "Direction",
                         "=",
                         "4"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        "FacingLeft",
-                        "=",
-                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -7861,6 +7896,19 @@
                     "Player"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FacingLeft",
+                    "=",
+                    "-1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7903,6 +7951,19 @@
                   },
                   "parameters": [
                     "Player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FacingLeft",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -7949,6 +8010,19 @@
                     "Player"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FacingLeft",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7991,6 +8065,19 @@
                   },
                   "parameters": [
                     "Player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FacingLeft",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -8037,11 +8124,10 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarObjetTxt"
+                        "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "Player",
-                        "Weapon",
+                        "Player.Weapon",
                         "=",
                         "\"Sword\""
                       ],
@@ -8617,11 +8703,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjetTxt"
+                    "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "Player",
-                    "Weapon",
+                    "Player.Weapon",
                     "=",
                     "\"Gun\""
                   ],
@@ -8778,22 +8863,24 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "SetAnimationName"
+                            "value": "FlipY"
                           },
                           "parameters": [
-                            "Player",
-                            "\"Left\""
+                            "Gun",
+                            "yes"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "FlipY"
+                            "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Gun",
-                            "yes"
+                            "Player",
+                            "Direction",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -8838,22 +8925,24 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "SetAnimationName"
+                            "value": "FlipY"
                           },
                           "parameters": [
-                            "Player",
-                            "\"Right\""
+                            "Gun",
+                            "no"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "FlipY"
+                            "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Gun",
-                            "no"
+                            "Player",
+                            "Direction",
+                            "=",
+                            "4"
                           ],
                           "subInstructions": []
                         }
@@ -9022,6 +9111,19 @@
                     "Gun"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Direction",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -9132,24 +9234,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "TextObject::String"
+                    "value": "ChangeWidth"
                   },
                   "parameters": [
-                    "HealthBarValue",
+                    "HealthBar",
                     "=",
-                    "\"Health: \" + Player.VariableString(Health)"
+                    "GlobalVariable(Player.Health) * 5"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeWidth"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
-                    "HealthBar",
+                    "HealthBarValue",
                     "=",
-                    "Player.Variable(Health) * 5"
+                    "\"Health: \" + GlobalVariableString(Player.Health)"
                   ],
                   "subInstructions": []
                 },
@@ -9177,11 +9279,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "Health",
+                    "Player.Health",
                     "<=",
                     "0"
                   ],
@@ -9244,7 +9345,7 @@
                   "parameters": [
                     "CurrencyText",
                     "=",
-                    "Player.VariableString(Coins) + \" coins\""
+                    "GlobalVariableString(Player.Coins) + \" coins\""
                   ],
                   "subInstructions": []
                 },
@@ -9276,7 +9377,7 @@
                   },
                   "parameters": [
                     "",
-                    "Player.Variable(CoinsSpeed)",
+                    "GlobalVariable(Player.CoinsSpeed)",
                     "\"CurrencyTimer\""
                   ],
                   "subInstructions": []
@@ -9305,13 +9406,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "Coins",
+                    "Player.Coins",
                     "+",
-                    "Player.Variable(CoinsPerUnit)"
+                    "GlobalVariable(Player.CoinsPerUnit)"
                   ],
                   "subInstructions": []
                 },
@@ -10423,23 +10523,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "StrEqual"
                       },
                       "parameters": [
@@ -10454,11 +10537,10 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarObjetTxt"
+                        "value": "ModVarGlobalTxt"
                       },
                       "parameters": [
-                        "Player",
-                        "Weapon",
+                        "Player.Weapon",
                         "=",
                         "\"Sword\""
                       ],
@@ -10528,11 +10610,10 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarObjetTxt"
+                        "value": "ModVarGlobalTxt"
                       },
                       "parameters": [
-                        "Player",
-                        "Weapon",
+                        "Player.Weapon",
                         "=",
                         "\"Gun\""
                       ],
@@ -10636,11 +10717,10 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarObjetTxt"
+                        "value": "ModVarGlobalTxt"
                       },
                       "parameters": [
-                        "Player",
-                        "Weapon",
+                        "Player.Weapon",
                         "=",
                         "\"NotWeapon\""
                       ],
@@ -10743,6 +10823,56 @@
                     "UpdateSelected",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Change Scenes",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ChangeSceneInteraction",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "ChangeSceneInteraction.VariableString(SceneToSwitchTo)",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11111,11 +11241,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "Health",
+                    "Player.Health",
                     "-",
                     "1"
                   ],
@@ -11329,7 +11458,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "ShopUI",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -11340,6 +11469,1085 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Inventory",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Farm",
+      "name": "Farm",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.712
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryBackground",
+          "persistentUuid": "19ae7640-2b2b-45e2-9b27-1a8902ec9501",
+          "width": 0,
+          "x": 532,
+          "y": 346,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "042c771b-3e10-4fd5-a8d5-24ec72ae790b",
+          "width": 0,
+          "x": 309,
+          "y": 262,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "e9919db4-8f3e-42d8-8ea4-888e412a3a08",
+          "width": 0,
+          "x": 403,
+          "y": 260,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "ae4c4cdf-99e9-4d10-b8dc-bdb87941567f",
+          "width": 0,
+          "x": 501,
+          "y": 264,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "d32d5c49-d1bb-4b9d-90ec-7c5c71cc9af9",
+          "width": 0,
+          "x": 595,
+          "y": 263,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "8d1f19f0-c15c-4ec7-9696-548c7f179171",
+          "width": 0,
+          "x": 698,
+          "y": 275,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "42bfba88-9cc5-4d07-8e34-bfa73acdef0d",
+          "width": 0,
+          "x": 316,
+          "y": 354,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "f7dcbd09-715d-4382-8472-69ad5e934488",
+          "width": 0,
+          "x": 406,
+          "y": 349,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "95b1087c-6fd6-42cb-ba65-7c9fa86860dc",
+          "width": 0,
+          "x": 515,
+          "y": 347,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "905cd134-fd81-403c-996d-0d9f955b6669",
+          "width": 0,
+          "x": 601,
+          "y": 350,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "3257f409-9bb8-42c2-a288-549a355eb8c9",
+          "width": 0,
+          "x": 701,
+          "y": 350,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryTrashSlot",
+          "persistentUuid": "e233f653-9845-4e00-879e-13e36d174a1b",
+          "width": 0,
+          "x": 845,
+          "y": 331,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "4522100b-5812-4e8d-8220-529889bd8313",
+          "width": 0,
+          "x": 349,
+          "y": 298,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "774dc091-9452-42ab-895c-09d2bd56f3aa",
+          "width": 0,
+          "x": 442,
+          "y": 294,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "0c802e50-e62e-4093-b8ae-97ee02e8c18f",
+          "width": 0,
+          "x": 541,
+          "y": 299,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "cd77612d-c626-4770-9990-184772aa67d1",
+          "width": 0,
+          "x": 633,
+          "y": 299,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "8dc03c91-5c6a-4282-b752-c31209bf11ea",
+          "width": 0,
+          "x": 729,
+          "y": 297,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "450c9260-08b1-4e5f-9178-9b63255889c4",
+          "width": 0,
+          "x": 733,
+          "y": 387,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "034b84a1-1bd4-4d66-9701-99d1116eab74",
+          "width": 0,
+          "x": 632,
+          "y": 386,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "0c92cfaf-1b0c-4dd6-a843-fef24f07eb90",
+          "width": 0,
+          "x": 546,
+          "y": 382,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "a580d87e-b950-4b7b-b1ce-d7d90d1094fd",
+          "width": 0,
+          "x": 435,
+          "y": 381,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "f6609692-deed-4dce-8190-0352faabc817",
+          "width": 0,
+          "x": 345,
+          "y": 389,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBarValue",
+          "persistentUuid": "72ab98c7-ca0e-45de-9e78-8f6d99dc26bf",
+          "width": 0,
+          "x": 518,
+          "y": 17,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBar",
+          "persistentUuid": "f4d82a03-7f8d-43e3-b6e7-8f970e2a7b28",
+          "width": 0,
+          "x": 10,
+          "y": 10,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "CurrencyText",
+          "persistentUuid": "a8c17233-2669-49c5-aab5-c92e87707c77",
+          "width": 0,
+          "x": 15,
+          "y": 55,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Sword",
+          "persistentUuid": "4cdc0b51-2ab8-423d-ad9c-08b1e99c7a56",
+          "width": 0,
+          "x": 533,
+          "y": 558,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Gun",
+          "persistentUuid": "7678a5f6-ac01-43c1-b20a-70c5aed4b62f",
+          "width": 0,
+          "x": 678,
+          "y": 549,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "8eda8dd8-3fa4-4c76-8cea-68a41d212454",
+          "width": 0,
+          "x": 850,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "c16bbac9-9ef0-4db5-9c8d-7e0e9be01d8a",
+          "width": 0,
+          "x": 950,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "ba506246-56e5-420d-842d-c6845e24f74c",
+          "width": 0,
+          "x": 1050,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "35626c14-0786-46b0-9b2a-9d9741e1e021",
+          "width": 0,
+          "x": 1150,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "462b889f-bc62-4442-b8fc-57af34b23b48",
+          "width": 0,
+          "x": 750,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "83a6074f-b4a9-48a4-a8b2-76c563a9b827",
+          "width": 0,
+          "x": 800,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "f2d23206-2961-4e87-b868-4cac3481a91d",
+          "width": 0,
+          "x": 900,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "822977ee-5a25-47b0-88bb-750502afaec0",
+          "width": 0,
+          "x": 1000,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "e8e5d533-1046-4f44-bfd9-a74fedc9c1c4",
+          "width": 0,
+          "x": 1100,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "a6b5186f-fd39-46af-9684-6f33ffcf2ae5",
+          "width": 0,
+          "x": 1200,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HotBarSelection",
+          "persistentUuid": "e8e9eeaf-194c-474b-bd80-cbcc89fbf27b",
+          "width": 0,
+          "x": 748,
+          "y": 628,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "2887ffcf-6039-4a78-9cbc-09ea21b60980",
+          "width": 0,
+          "x": 512,
+          "y": 1149,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "c7ac7f71-fe0e-4347-b619-ba95e7fb91ed",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "ChangeSceneInteraction",
+          "persistentUuid": "9cd52772-b967-42b4-90c5-8a48d8708a3c",
+          "width": 0,
+          "x": 495,
+          "y": 1192,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SceneToSwitchTo",
+              "value": "Town Center"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBarBackground",
+          "persistentUuid": "dc13be00-122e-4339-af9a-cf54b3124a65",
+          "width": 0,
+          "x": 10,
+          "y": 10,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TestFarm2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Town Center"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "0",
+                "0",
+                "1520",
+                "1200",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
+                    "\"Town Center\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "512",
+                    "=",
+                    "1149"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
+                    "\"Farm\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 9152488,
+          "ambientLightColorG": 9140816,
+          "ambientLightColorR": 7839808,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Inventory",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": 167797870,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": 32,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "CollisionLayer",
           "visibility": true,
           "cameras": [],
           "effects": []
