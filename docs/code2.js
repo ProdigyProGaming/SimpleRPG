@@ -367,7 +367,7 @@ gdjs.CavesCode.conditionTrue_1.val = true && gdjs.CavesCode.condition0IsTrue_1.v
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition0IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8626388);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9965164);
 }
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.CavesCode.GDInventoryBackgroundObjects3);
@@ -719,7 +719,7 @@ gdjs.CavesCode.condition5IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.CavesCode.condition5IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition6IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9029588);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9974172);
 }
 }}
 }
@@ -1225,7 +1225,7 @@ gdjs.CavesCode.conditionTrue_1.val = true && gdjs.CavesCode.condition0IsTrue_1.v
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9515516);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9999588);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1287,7 +1287,7 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.CavesCode.GDSwordObjects2.length = k;}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8530172);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10006540);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1318,7 +1318,7 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.CavesCode.GDSwordObjects2.length = k;}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8565124);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10007556);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1349,7 +1349,7 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.CavesCode.GDSwordObjects2.length = k;}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9620284);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10008332);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1380,7 +1380,7 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.CavesCode.GDSwordObjects2.length = k;}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7986852);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10008980);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1411,7 +1411,7 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDSwordObjects1.length;i<l;++i) {
 gdjs.CavesCode.GDSwordObjects1.length = k;}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8293644);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10010348);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1441,7 +1441,7 @@ if (gdjs.CavesCode.condition1IsTrue_0.val) {
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition0IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8956644);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10014468);
 }
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.CavesCode.GDGunObjects2, gdjs.CavesCode.GDGunObjects3);
@@ -1531,7 +1531,7 @@ gdjs.CavesCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.CavesCode.condition2IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition3IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9469068);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10017716);
 }
 }}
 }
@@ -1758,7 +1758,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedT
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7707924);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10025628);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -1806,7 +1806,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition0IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10325508);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10031404);
 }
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
@@ -1837,32 +1837,32 @@ gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.CavesCode.GDIn
 }
 
 
-};gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects3});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects3});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects3Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects3});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects3Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects3});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects2});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects3});gdjs.CavesCode.eventsList23 = function(runtimeScene) {
+};gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects2});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects2});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects2});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects2});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects1Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.CavesCode.GDInventoryMovingSlotObjects1});gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.CavesCode.GDInventorySlotObjects2});gdjs.CavesCode.eventsList23 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(gdjs.CavesCode.GDInventorySlotObjects3, gdjs.CavesCode.GDInventorySlotObjects4);
+gdjs.copyArray(gdjs.CavesCode.GDInventorySlotObjects2, gdjs.CavesCode.GDInventorySlotObjects3);
 
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects4.length;i<l;++i) {
-    if ( gdjs.CavesCode.GDInventorySlotObjects4[i].isCurrentAnimationName("Empty") ) {
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects3.length;i<l;++i) {
+    if ( gdjs.CavesCode.GDInventorySlotObjects3[i].isCurrentAnimationName("Empty") ) {
         gdjs.CavesCode.condition0IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventorySlotObjects4[k] = gdjs.CavesCode.GDInventorySlotObjects4[i];
+        gdjs.CavesCode.GDInventorySlotObjects3[k] = gdjs.CavesCode.GDInventorySlotObjects3[i];
         ++k;
     }
 }
-gdjs.CavesCode.GDInventorySlotObjects4.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
-gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects3, gdjs.CavesCode.GDInventoryMovingSlotObjects4);
+gdjs.CavesCode.GDInventorySlotObjects3.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
+gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects2, gdjs.CavesCode.GDInventoryMovingSlotObjects3);
 
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects4 */
-{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects4.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects4[i].deleteFromScene(runtimeScene);
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
+{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -1872,28 +1872,28 @@ gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects3, gdjs.CavesCode.GDIn
 
 {
 
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( !(gdjs.CavesCode.GDInventorySlotObjects3[i].isCurrentAnimationName("Empty")) ) {
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( !(gdjs.CavesCode.GDInventorySlotObjects2[i].isCurrentAnimationName("Empty")) ) {
         gdjs.CavesCode.condition0IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventorySlotObjects3[k] = gdjs.CavesCode.GDInventorySlotObjects3[i];
+        gdjs.CavesCode.GDInventorySlotObjects2[k] = gdjs.CavesCode.GDInventorySlotObjects2[i];
         ++k;
     }
 }
-gdjs.CavesCode.GDInventorySlotObjects3.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects3 */
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
-{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity")));
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
+gdjs.CavesCode.GDInventorySlotObjects2.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
+{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity")));
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -1905,41 +1905,15 @@ gdjs.CavesCode.GDInventorySlotObjects3.length = k;}if (gdjs.CavesCode.condition0
 
 {
 
-gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects2, gdjs.CavesCode.GDInventoryMovingSlotObjects4);
+gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects1, gdjs.CavesCode.GDInventoryMovingSlotObjects3);
 
-gdjs.copyArray(gdjs.CavesCode.GDInventorySlotObjects3, gdjs.CavesCode.GDInventorySlotObjects4);
+gdjs.copyArray(gdjs.CavesCode.GDInventorySlotObjects2, gdjs.CavesCode.GDInventorySlotObjects3);
 
-
-gdjs.CavesCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects4.length;i<l;++i) {
-    if ( gdjs.CavesCode.GDInventorySlotObjects4[i].getVariableString(gdjs.CavesCode.GDInventorySlotObjects4[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0))) ) {
-        gdjs.CavesCode.condition0IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventorySlotObjects4[k] = gdjs.CavesCode.GDInventorySlotObjects4[i];
-        ++k;
-    }
-}
-gdjs.CavesCode.GDInventorySlotObjects4.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects4 */
-{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects4.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects4[i].deleteFromScene(runtimeScene);
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects2, gdjs.CavesCode.GDInventoryMovingSlotObjects3);
-
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( !(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariableString(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))) ) {
+    if ( gdjs.CavesCode.GDInventorySlotObjects3[i].getVariableString(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0))) ) {
         gdjs.CavesCode.condition0IsTrue_0.val = true;
         gdjs.CavesCode.GDInventorySlotObjects3[k] = gdjs.CavesCode.GDInventorySlotObjects3[i];
         ++k;
@@ -1951,6 +1925,32 @@ gdjs.CavesCode.GDInventorySlotObjects3.length = k;}if (gdjs.CavesCode.condition0
     gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects1, gdjs.CavesCode.GDInventoryMovingSlotObjects2);
+
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
+
+gdjs.CavesCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( !(gdjs.CavesCode.GDInventorySlotObjects2[i].getVariableString(gdjs.CavesCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))) ) {
+        gdjs.CavesCode.condition0IsTrue_0.val = true;
+        gdjs.CavesCode.GDInventorySlotObjects2[k] = gdjs.CavesCode.GDInventorySlotObjects2[i];
+        ++k;
+    }
+}
+gdjs.CavesCode.GDInventorySlotObjects2.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
+{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }
 { //Subevents
 gdjs.CavesCode.eventsList23(runtimeScene);} //End of subevents
@@ -1959,16 +1959,16 @@ gdjs.CavesCode.eventsList23(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryTrashSlotObjects3Objects = Hashtable.newFrom({"InventoryTrashSlot": gdjs.CavesCode.GDInventoryTrashSlotObjects3});gdjs.CavesCode.eventsList25 = function(runtimeScene) {
+};gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryTrashSlotObjects2Objects = Hashtable.newFrom({"InventoryTrashSlot": gdjs.CavesCode.GDInventoryTrashSlotObjects2});gdjs.CavesCode.eventsList25 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects2);
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 gdjs.CavesCode.condition1IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects, runtimeScene, true, false);
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -1984,23 +1984,23 @@ gdjs.CavesCode.eventsList24(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.CavesCode.GDInventoryTrashSlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.CavesCode.GDInventoryTrashSlotObjects2);
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 gdjs.CavesCode.condition1IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryTrashSlotObjects3Objects, runtimeScene, true, false);
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryTrashSlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
-gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects2, gdjs.CavesCode.GDInventoryMovingSlotObjects3);
+gdjs.copyArray(gdjs.CavesCode.GDInventoryMovingSlotObjects1, gdjs.CavesCode.GDInventoryMovingSlotObjects2);
 
-{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
+{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2022,14 +2022,14 @@ gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runt
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10088668);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10051164);
 }
 }}
 }
 if (gdjs.CavesCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
-{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
+/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects1 */
+{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects1[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2041,57 +2041,57 @@ if (gdjs.CavesCode.condition2IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.CavesCode.GDInventoryQuantityObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.CavesCode.GDInventoryQuantityObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects2);
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 gdjs.CavesCode.condition1IsTrue_0.val = false;
 gdjs.CavesCode.condition2IsTrue_0.val = false;
 gdjs.CavesCode.condition3IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(runtimeScene, gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects);
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(runtimeScene, gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects);
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( gdjs.CavesCode.GDInventorySlotObjects3[i].getVariableNumber(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) <= 10 ) {
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( gdjs.CavesCode.GDInventorySlotObjects2[i].getVariableNumber(gdjs.CavesCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0)) <= 10 ) {
         gdjs.CavesCode.condition1IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventorySlotObjects3[k] = gdjs.CavesCode.GDInventorySlotObjects3[i];
+        gdjs.CavesCode.GDInventorySlotObjects2[k] = gdjs.CavesCode.GDInventorySlotObjects2[i];
         ++k;
     }
 }
-gdjs.CavesCode.GDInventorySlotObjects3.length = k;}if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
+gdjs.CavesCode.GDInventorySlotObjects2.length = k;}if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventoryQuantityObjects3.length;i<l;++i) {
-    if ( gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariableNumber(gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0)) <= 10 ) {
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventoryQuantityObjects2.length;i<l;++i) {
+    if ( gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariableNumber(gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0)) <= 10 ) {
         gdjs.CavesCode.condition2IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventoryQuantityObjects3[k] = gdjs.CavesCode.GDInventoryQuantityObjects3[i];
+        gdjs.CavesCode.GDInventoryQuantityObjects2[k] = gdjs.CavesCode.GDInventoryQuantityObjects2[i];
         ++k;
     }
 }
-gdjs.CavesCode.GDInventoryQuantityObjects3.length = k;}if ( gdjs.CavesCode.condition2IsTrue_0.val ) {
+gdjs.CavesCode.GDInventoryQuantityObjects2.length = k;}if ( gdjs.CavesCode.condition2IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition3IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9524820);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10034564);
 }
 }}
 }
 }
 if (gdjs.CavesCode.condition3IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.CavesCode.GDInventoryBackgroundObjects3);
-/* Reuse gdjs.CavesCode.GDInventoryQuantityObjects3 */
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
-gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.CavesCode.GDInventoryTrashSlotObjects3);
-{for(var i = 0, len = gdjs.CavesCode.GDInventoryBackgroundObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryBackgroundObjects3[i].setPosition((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2) - 250,(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2) + 250);
+gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.CavesCode.GDInventoryBackgroundObjects2);
+/* Reuse gdjs.CavesCode.GDInventoryQuantityObjects2 */
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.CavesCode.GDInventoryTrashSlotObjects2);
+{for(var i = 0, len = gdjs.CavesCode.GDInventoryBackgroundObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryBackgroundObjects2[i].setPosition((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2) - 250,(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2) + 250);
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventorySlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventorySlotObjects3[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointX("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0))))),(( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointY("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0))))));
+}{for(var i = 0, len = gdjs.CavesCode.GDInventorySlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventorySlotObjects2[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointX("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0))))),(( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointY("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0))))));
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryQuantityObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryQuantityObjects3[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointX("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0))))),(( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointY("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0))))));
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryQuantityObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryQuantityObjects2[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointX("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0))))),(( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointY("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0))))));
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryTrashSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryTrashSlotObjects3[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointX("TrashSlot")),(( gdjs.CavesCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects3[0].getPointY("TrashSlot")));
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryTrashSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryTrashSlotObjects2[i].setPosition((( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointX("TrashSlot")),(( gdjs.CavesCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.CavesCode.GDInventoryBackgroundObjects2[0].getPointY("TrashSlot")));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2101,53 +2101,53 @@ gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.CavesCode.GDI
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.CavesCode.GDInventoryMovingSlotObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.CavesCode.GDInventoryQuantityObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.CavesCode.GDInventoryMovingSlotObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.CavesCode.GDInventoryQuantityObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.CavesCode.GDInventorySlotObjects2);
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 gdjs.CavesCode.condition1IsTrue_0.val = false;
 gdjs.CavesCode.condition2IsTrue_0.val = false;
 gdjs.CavesCode.condition3IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects3Objects, runtimeScene, true, false);
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventorySlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
-gdjs.CavesCode.condition2IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects3Objects) == 0;
+gdjs.CavesCode.condition2IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects) == 0;
 }if ( gdjs.CavesCode.condition2IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventoryQuantityObjects3.length;i<l;++i) {
-    if ( gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariableNumber(gdjs.CavesCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableNumber(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0))) ) {
+for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventoryQuantityObjects2.length;i<l;++i) {
+    if ( gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariableNumber(gdjs.CavesCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableNumber(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0))) ) {
         gdjs.CavesCode.condition3IsTrue_0.val = true;
-        gdjs.CavesCode.GDInventoryQuantityObjects3[k] = gdjs.CavesCode.GDInventoryQuantityObjects3[i];
+        gdjs.CavesCode.GDInventoryQuantityObjects2[k] = gdjs.CavesCode.GDInventoryQuantityObjects2[i];
         ++k;
     }
 }
-gdjs.CavesCode.GDInventoryQuantityObjects3.length = k;}}
+gdjs.CavesCode.GDInventoryQuantityObjects2.length = k;}}
 }
 }
 if (gdjs.CavesCode.condition3IsTrue_0.val) {
-/* Reuse gdjs.CavesCode.GDInventoryQuantityObjects3 */
-/* Reuse gdjs.CavesCode.GDInventorySlotObjects3 */
-/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects3 */
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects3Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), "");
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].setAnimationName((( gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? "" :gdjs.CavesCode.GDInventorySlotObjects3[0].getAnimationName()));
+/* Reuse gdjs.CavesCode.GDInventoryQuantityObjects2 */
+/* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
+/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), "");
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].setAnimationName((( gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? "" :gdjs.CavesCode.GDInventorySlotObjects2[0].getAnimationName()));
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].setLayer("Inventory");
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].setLayer("Inventory");
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventorySlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventorySlotObjects3[i].setAnimationName("Empty");
+}{for(var i = 0, len = gdjs.CavesCode.GDInventorySlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventorySlotObjects2[i].setAnimationName("Empty");
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].returnVariable(gdjs.CavesCode.GDInventoryMovingSlotObjects3[i].getVariables().getFromIndex(0)).setString((gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0))));
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].returnVariable(gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].getVariables().getFromIndex(0)).setString((gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0))));
 }
-}{for(var i = 0, len = gdjs.CavesCode.GDInventoryQuantityObjects3.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryQuantityObjects3[i].setString("0");
+}{for(var i = 0, len = gdjs.CavesCode.GDInventoryQuantityObjects2.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryQuantityObjects2[i].setString("0");
 }
 }}
 
@@ -2156,15 +2156,15 @@ if (gdjs.CavesCode.condition3IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.CavesCode.GDInventoryMovingSlotObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.CavesCode.GDInventoryMovingSlotObjects1);
 
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects) == 1;
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects1Objects) == 1;
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
-{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 640),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
+/* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects1 */
+{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
+    gdjs.CavesCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 640),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
 }
 }
 { //Subevents
@@ -2175,6 +2175,25 @@ gdjs.CavesCode.eventsList25(runtimeScene);} //End of subevents
 
 
 };gdjs.CavesCode.eventsList27 = function(runtimeScene) {
+
+{
+
+
+gdjs.CavesCode.condition0IsTrue_0.val = false;
+gdjs.CavesCode.condition1IsTrue_0.val = false;
+{
+gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
+}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
+{
+gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Inventory");
+}}
+if (gdjs.CavesCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "Inventory");
+}{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1);
+}}
+
+}
+
 
 {
 
@@ -2207,7 +2226,7 @@ gdjs.CavesCode.condition1IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(ru
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8652636);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10030028);
 }
 }}
 }
@@ -2245,32 +2264,6 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runt
 { //Subevents
 gdjs.CavesCode.eventsList26(runtimeScene);} //End of subevents
 }
-
-}
-
-
-{
-
-
-gdjs.CavesCode.condition0IsTrue_0.val = false;
-gdjs.CavesCode.condition1IsTrue_0.val = false;
-gdjs.CavesCode.condition2IsTrue_0.val = false;
-{
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
-}if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
-{
-gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Inventory");
-}if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
-{
-{gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9695644);
-}
-}}
-}
-if (gdjs.CavesCode.condition2IsTrue_0.val) {
-{gdjs.evtTools.camera.hideLayer(runtimeScene, "Inventory");
-}{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1);
-}}
 
 }
 
@@ -2483,7 +2476,7 @@ gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10616564);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10064212);
 }
 }}
 }
@@ -2517,7 +2510,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8648252);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10065884);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -2545,7 +2538,7 @@ gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8643364);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10066644);
 }
 }}
 }
@@ -2582,7 +2575,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9859596);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10068884);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -2607,7 +2600,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8280780);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10069916);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -2640,7 +2633,7 @@ gdjs.CavesCode.conditionTrue_1.val = (10 <= (gdjs.RuntimeObject.getVariableNumbe
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10057180);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10071572);
 }
 }}
 }
@@ -2668,7 +2661,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10349420);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10072644);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -2854,7 +2847,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9166564);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10188436);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -2914,7 +2907,7 @@ gdjs.CavesCode.conditionTrue_1.val = true && gdjs.CavesCode.condition0IsTrue_1.v
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9533892);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10190052);
 }
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
@@ -3002,7 +2995,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 gdjs.CavesCode.condition0IsTrue_0.val = false;
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition0IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7962316);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10196388);
 }
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.CavesCode.GDGunObjects1, gdjs.CavesCode.GDGunObjects2);
@@ -3092,7 +3085,7 @@ gdjs.CavesCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.CavesCode.condition2IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition3IsTrue_0;
-gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8542228);
+gdjs.CavesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10199636);
 }
 }}
 }

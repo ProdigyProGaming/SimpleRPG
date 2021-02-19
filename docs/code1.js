@@ -368,7 +368,7 @@ gdjs.FarmCode.conditionTrue_1.val = true && gdjs.FarmCode.condition0IsTrue_1.val
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition0IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8626388);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9965164);
 }
 }if (gdjs.FarmCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.FarmCode.GDInventoryBackgroundObjects3);
@@ -720,7 +720,7 @@ gdjs.FarmCode.condition5IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }if ( gdjs.FarmCode.condition5IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition6IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9029588);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9974172);
 }
 }}
 }
@@ -1226,7 +1226,7 @@ gdjs.FarmCode.conditionTrue_1.val = true && gdjs.FarmCode.condition0IsTrue_1.val
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9515516);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9999588);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1288,7 +1288,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.FarmCode.GDSwordObjects2.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8530172);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10006540);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1319,7 +1319,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.FarmCode.GDSwordObjects2.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8565124);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10007556);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1350,7 +1350,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.FarmCode.GDSwordObjects2.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9620284);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10008332);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1381,7 +1381,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDSwordObjects2.length;i<l;++i) {
 gdjs.FarmCode.GDSwordObjects2.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7986852);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10008980);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1412,7 +1412,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDSwordObjects1.length;i<l;++i) {
 gdjs.FarmCode.GDSwordObjects1.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8293644);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10010348);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1442,7 +1442,7 @@ if (gdjs.FarmCode.condition1IsTrue_0.val) {
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition0IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8956644);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10014468);
 }
 }if (gdjs.FarmCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.FarmCode.GDGunObjects2, gdjs.FarmCode.GDGunObjects3);
@@ -1532,7 +1532,7 @@ gdjs.FarmCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }if ( gdjs.FarmCode.condition2IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition3IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9469068);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10017716);
 }
 }}
 }
@@ -1759,7 +1759,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7707924);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10025628);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -1807,7 +1807,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition0IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10325508);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10031404);
 }
 }if (gdjs.FarmCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
@@ -1838,32 +1838,32 @@ gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.FarmCode.GDInv
 }
 
 
-};gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects3});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects3});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects3Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects3});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects3Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects3});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects2});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects3});gdjs.FarmCode.eventsList23 = function(runtimeScene) {
+};gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects2});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects2});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects2});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects2});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects1Objects = Hashtable.newFrom({"InventoryMovingSlot": gdjs.FarmCode.GDInventoryMovingSlotObjects1});gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects = Hashtable.newFrom({"InventorySlot": gdjs.FarmCode.GDInventorySlotObjects2});gdjs.FarmCode.eventsList23 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(gdjs.FarmCode.GDInventorySlotObjects3, gdjs.FarmCode.GDInventorySlotObjects4);
+gdjs.copyArray(gdjs.FarmCode.GDInventorySlotObjects2, gdjs.FarmCode.GDInventorySlotObjects3);
 
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects4.length;i<l;++i) {
-    if ( gdjs.FarmCode.GDInventorySlotObjects4[i].isCurrentAnimationName("Empty") ) {
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects3.length;i<l;++i) {
+    if ( gdjs.FarmCode.GDInventorySlotObjects3[i].isCurrentAnimationName("Empty") ) {
         gdjs.FarmCode.condition0IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventorySlotObjects4[k] = gdjs.FarmCode.GDInventorySlotObjects4[i];
+        gdjs.FarmCode.GDInventorySlotObjects3[k] = gdjs.FarmCode.GDInventorySlotObjects3[i];
         ++k;
     }
 }
-gdjs.FarmCode.GDInventorySlotObjects4.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
-gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects3, gdjs.FarmCode.GDInventoryMovingSlotObjects4);
+gdjs.FarmCode.GDInventorySlotObjects3.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
+gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects2, gdjs.FarmCode.GDInventoryMovingSlotObjects3);
 
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects4 */
-{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects4.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects4[i].deleteFromScene(runtimeScene);
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
+{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -1873,28 +1873,28 @@ gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects3, gdjs.FarmCode.GDInve
 
 {
 
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects2 */
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( !(gdjs.FarmCode.GDInventorySlotObjects3[i].isCurrentAnimationName("Empty")) ) {
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( !(gdjs.FarmCode.GDInventorySlotObjects2[i].isCurrentAnimationName("Empty")) ) {
         gdjs.FarmCode.condition0IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventorySlotObjects3[k] = gdjs.FarmCode.GDInventorySlotObjects3[i];
+        gdjs.FarmCode.GDInventorySlotObjects2[k] = gdjs.FarmCode.GDInventorySlotObjects2[i];
         ++k;
     }
 }
-gdjs.FarmCode.GDInventorySlotObjects3.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects3 */
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
-{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item")));
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity")));
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
+gdjs.FarmCode.GDInventorySlotObjects2.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects2 */
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects2 */
+{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Item")));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Quantity")));
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -1906,41 +1906,15 @@ gdjs.FarmCode.GDInventorySlotObjects3.length = k;}if (gdjs.FarmCode.condition0Is
 
 {
 
-gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects2, gdjs.FarmCode.GDInventoryMovingSlotObjects4);
+gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects1, gdjs.FarmCode.GDInventoryMovingSlotObjects3);
 
-gdjs.copyArray(gdjs.FarmCode.GDInventorySlotObjects3, gdjs.FarmCode.GDInventorySlotObjects4);
+gdjs.copyArray(gdjs.FarmCode.GDInventorySlotObjects2, gdjs.FarmCode.GDInventorySlotObjects3);
 
-
-gdjs.FarmCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects4.length;i<l;++i) {
-    if ( gdjs.FarmCode.GDInventorySlotObjects4[i].getVariableString(gdjs.FarmCode.GDInventorySlotObjects4[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects4[0].getVariables()).getFromIndex(0))) ) {
-        gdjs.FarmCode.condition0IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventorySlotObjects4[k] = gdjs.FarmCode.GDInventorySlotObjects4[i];
-        ++k;
-    }
-}
-gdjs.FarmCode.GDInventorySlotObjects4.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects4 */
-{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects4.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects4[i].deleteFromScene(runtimeScene);
-}
-}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects2, gdjs.FarmCode.GDInventoryMovingSlotObjects3);
-
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( !(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariableString(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))) ) {
+    if ( gdjs.FarmCode.GDInventorySlotObjects3[i].getVariableString(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0))) ) {
         gdjs.FarmCode.condition0IsTrue_0.val = true;
         gdjs.FarmCode.GDInventorySlotObjects3[k] = gdjs.FarmCode.GDInventorySlotObjects3[i];
         ++k;
@@ -1952,6 +1926,32 @@ gdjs.FarmCode.GDInventorySlotObjects3.length = k;}if (gdjs.FarmCode.condition0Is
     gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects1, gdjs.FarmCode.GDInventoryMovingSlotObjects2);
+
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects2 */
+
+gdjs.FarmCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( !(gdjs.FarmCode.GDInventorySlotObjects2[i].getVariableString(gdjs.FarmCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))) ) {
+        gdjs.FarmCode.condition0IsTrue_0.val = true;
+        gdjs.FarmCode.GDInventorySlotObjects2[k] = gdjs.FarmCode.GDInventorySlotObjects2[i];
+        ++k;
+    }
+}
+gdjs.FarmCode.GDInventorySlotObjects2.length = k;}if (gdjs.FarmCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects2 */
+{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }
 { //Subevents
 gdjs.FarmCode.eventsList23(runtimeScene);} //End of subevents
@@ -1960,16 +1960,16 @@ gdjs.FarmCode.eventsList23(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryTrashSlotObjects3Objects = Hashtable.newFrom({"InventoryTrashSlot": gdjs.FarmCode.GDInventoryTrashSlotObjects3});gdjs.FarmCode.eventsList25 = function(runtimeScene) {
+};gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryTrashSlotObjects2Objects = Hashtable.newFrom({"InventoryTrashSlot": gdjs.FarmCode.GDInventoryTrashSlotObjects2});gdjs.FarmCode.eventsList25 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects2);
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 gdjs.FarmCode.condition1IsTrue_0.val = false;
 {
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects, runtimeScene, true, false);
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -1985,23 +1985,23 @@ gdjs.FarmCode.eventsList24(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.FarmCode.GDInventoryTrashSlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.FarmCode.GDInventoryTrashSlotObjects2);
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 gdjs.FarmCode.condition1IsTrue_0.val = false;
 {
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryTrashSlotObjects3Objects, runtimeScene, true, false);
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryTrashSlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
-gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects2, gdjs.FarmCode.GDInventoryMovingSlotObjects3);
+gdjs.copyArray(gdjs.FarmCode.GDInventoryMovingSlotObjects1, gdjs.FarmCode.GDInventoryMovingSlotObjects2);
 
-{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects3[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].deleteFromScene(runtimeScene);
+{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Item").setString("Empty");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventoryMovingSlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventoryMovingSlotObjects2[0].getVariables()).getFromIndex(0)))).getChild("Quantity").setNumber(0);
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2023,14 +2023,14 @@ gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runti
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10088668);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10051164);
 }
 }}
 }
 if (gdjs.FarmCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects2 */
-{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].deleteFromScene(runtimeScene);
+/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects1 */
+{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects1[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2042,57 +2042,57 @@ if (gdjs.FarmCode.condition2IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.FarmCode.GDInventoryQuantityObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.FarmCode.GDInventoryQuantityObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects2);
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 gdjs.FarmCode.condition1IsTrue_0.val = false;
 gdjs.FarmCode.condition2IsTrue_0.val = false;
 gdjs.FarmCode.condition3IsTrue_0.val = false;
 {
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(runtimeScene, gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects);
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(runtimeScene, gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects);
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects3.length;i<l;++i) {
-    if ( gdjs.FarmCode.GDInventorySlotObjects3[i].getVariableNumber(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0)) <= 10 ) {
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventorySlotObjects2.length;i<l;++i) {
+    if ( gdjs.FarmCode.GDInventorySlotObjects2[i].getVariableNumber(gdjs.FarmCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0)) <= 10 ) {
         gdjs.FarmCode.condition1IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventorySlotObjects3[k] = gdjs.FarmCode.GDInventorySlotObjects3[i];
+        gdjs.FarmCode.GDInventorySlotObjects2[k] = gdjs.FarmCode.GDInventorySlotObjects2[i];
         ++k;
     }
 }
-gdjs.FarmCode.GDInventorySlotObjects3.length = k;}if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
+gdjs.FarmCode.GDInventorySlotObjects2.length = k;}if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventoryQuantityObjects3.length;i<l;++i) {
-    if ( gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariableNumber(gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0)) <= 10 ) {
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventoryQuantityObjects2.length;i<l;++i) {
+    if ( gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariableNumber(gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0)) <= 10 ) {
         gdjs.FarmCode.condition2IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventoryQuantityObjects3[k] = gdjs.FarmCode.GDInventoryQuantityObjects3[i];
+        gdjs.FarmCode.GDInventoryQuantityObjects2[k] = gdjs.FarmCode.GDInventoryQuantityObjects2[i];
         ++k;
     }
 }
-gdjs.FarmCode.GDInventoryQuantityObjects3.length = k;}if ( gdjs.FarmCode.condition2IsTrue_0.val ) {
+gdjs.FarmCode.GDInventoryQuantityObjects2.length = k;}if ( gdjs.FarmCode.condition2IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition3IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9524820);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10034564);
 }
 }}
 }
 }
 if (gdjs.FarmCode.condition3IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.FarmCode.GDInventoryBackgroundObjects3);
-/* Reuse gdjs.FarmCode.GDInventoryQuantityObjects3 */
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
-gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.FarmCode.GDInventoryTrashSlotObjects3);
-{for(var i = 0, len = gdjs.FarmCode.GDInventoryBackgroundObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryBackgroundObjects3[i].setPosition((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2) - 250,(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2) + 250);
+gdjs.copyArray(runtimeScene.getObjects("InventoryBackground"), gdjs.FarmCode.GDInventoryBackgroundObjects2);
+/* Reuse gdjs.FarmCode.GDInventoryQuantityObjects2 */
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.FarmCode.GDInventoryTrashSlotObjects2);
+{for(var i = 0, len = gdjs.FarmCode.GDInventoryBackgroundObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryBackgroundObjects2[i].setPosition((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2) - 250,(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2) + 250);
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventorySlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventorySlotObjects3[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointX("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0))))),(( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointY("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventorySlotObjects3[i].getVariables().getFromIndex(0))))));
+}{for(var i = 0, len = gdjs.FarmCode.GDInventorySlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventorySlotObjects2[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointX("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0))))),(( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointY("Slot" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventorySlotObjects2[i].getVariables().getFromIndex(0))))));
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryQuantityObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryQuantityObjects3[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointX("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0))))),(( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointY("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0))))));
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryQuantityObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryQuantityObjects2[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointX("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0))))),(( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointY("Quantity" + (gdjs.RuntimeObject.getVariableString(gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0))))));
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryTrashSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryTrashSlotObjects3[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointX("TrashSlot")),(( gdjs.FarmCode.GDInventoryBackgroundObjects3.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects3[0].getPointY("TrashSlot")));
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryTrashSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryTrashSlotObjects2[i].setPosition((( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointX("TrashSlot")),(( gdjs.FarmCode.GDInventoryBackgroundObjects2.length === 0 ) ? 0 :gdjs.FarmCode.GDInventoryBackgroundObjects2[0].getPointY("TrashSlot")));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }}
@@ -2102,53 +2102,53 @@ gdjs.copyArray(runtimeScene.getObjects("InventoryTrashSlot"), gdjs.FarmCode.GDIn
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.FarmCode.GDInventoryMovingSlotObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.FarmCode.GDInventoryQuantityObjects3);
-gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.FarmCode.GDInventoryMovingSlotObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventoryQuantity"), gdjs.FarmCode.GDInventoryQuantityObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventorySlot"), gdjs.FarmCode.GDInventorySlotObjects2);
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 gdjs.FarmCode.condition1IsTrue_0.val = false;
 gdjs.FarmCode.condition2IsTrue_0.val = false;
 gdjs.FarmCode.condition3IsTrue_0.val = false;
 {
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects3Objects, runtimeScene, true, false);
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventorySlotObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
-gdjs.FarmCode.condition2IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects3Objects) == 0;
+gdjs.FarmCode.condition2IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects) == 0;
 }if ( gdjs.FarmCode.condition2IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventoryQuantityObjects3.length;i<l;++i) {
-    if ( gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariableNumber(gdjs.FarmCode.GDInventoryQuantityObjects3[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableNumber(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0))) ) {
+for(var i = 0, k = 0, l = gdjs.FarmCode.GDInventoryQuantityObjects2.length;i<l;++i) {
+    if ( gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariableNumber(gdjs.FarmCode.GDInventoryQuantityObjects2[i].getVariables().getFromIndex(0)) == (gdjs.RuntimeObject.getVariableNumber(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0))) ) {
         gdjs.FarmCode.condition3IsTrue_0.val = true;
-        gdjs.FarmCode.GDInventoryQuantityObjects3[k] = gdjs.FarmCode.GDInventoryQuantityObjects3[i];
+        gdjs.FarmCode.GDInventoryQuantityObjects2[k] = gdjs.FarmCode.GDInventoryQuantityObjects2[i];
         ++k;
     }
 }
-gdjs.FarmCode.GDInventoryQuantityObjects3.length = k;}}
+gdjs.FarmCode.GDInventoryQuantityObjects2.length = k;}}
 }
 }
 if (gdjs.FarmCode.condition3IsTrue_0.val) {
-/* Reuse gdjs.FarmCode.GDInventoryQuantityObjects3 */
-/* Reuse gdjs.FarmCode.GDInventorySlotObjects3 */
-/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects3 */
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects3Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), "");
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].setAnimationName((( gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? "" :gdjs.FarmCode.GDInventorySlotObjects3[0].getAnimationName()));
+/* Reuse gdjs.FarmCode.GDInventoryQuantityObjects2 */
+/* Reuse gdjs.FarmCode.GDInventorySlotObjects2 */
+/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects2 */
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), "");
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].setAnimationName((( gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? "" :gdjs.FarmCode.GDInventorySlotObjects2[0].getAnimationName()));
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].setLayer("Inventory");
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].setLayer("Inventory");
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventorySlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventorySlotObjects3[i].setAnimationName("Empty");
+}{for(var i = 0, len = gdjs.FarmCode.GDInventorySlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventorySlotObjects2[i].setAnimationName("Empty");
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].returnVariable(gdjs.FarmCode.GDInventoryMovingSlotObjects3[i].getVariables().getFromIndex(0)).setString((gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects3[0].getVariables()).getFromIndex(0))));
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].returnVariable(gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].getVariables().getFromIndex(0)).setString((gdjs.RuntimeObject.getVariableString(((gdjs.FarmCode.GDInventorySlotObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.FarmCode.GDInventorySlotObjects2[0].getVariables()).getFromIndex(0))));
 }
-}{for(var i = 0, len = gdjs.FarmCode.GDInventoryQuantityObjects3.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryQuantityObjects3[i].setString("0");
+}{for(var i = 0, len = gdjs.FarmCode.GDInventoryQuantityObjects2.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryQuantityObjects2[i].setString("0");
 }
 }}
 
@@ -2157,15 +2157,15 @@ if (gdjs.FarmCode.condition3IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.FarmCode.GDInventoryMovingSlotObjects2);
+gdjs.copyArray(runtimeScene.getObjects("InventoryMovingSlot"), gdjs.FarmCode.GDInventoryMovingSlotObjects1);
 
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects2Objects) == 1;
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(gdjs.FarmCode.mapOfGDgdjs_46FarmCode_46GDInventoryMovingSlotObjects1Objects) == 1;
 }if (gdjs.FarmCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects2 */
-{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
-    gdjs.FarmCode.GDInventoryMovingSlotObjects2[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 640),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
+/* Reuse gdjs.FarmCode.GDInventoryMovingSlotObjects1 */
+{for(var i = 0, len = gdjs.FarmCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
+    gdjs.FarmCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 640),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
 }
 }
 { //Subevents
@@ -2176,6 +2176,25 @@ gdjs.FarmCode.eventsList25(runtimeScene);} //End of subevents
 
 
 };gdjs.FarmCode.eventsList27 = function(runtimeScene) {
+
+{
+
+
+gdjs.FarmCode.condition0IsTrue_0.val = false;
+gdjs.FarmCode.condition1IsTrue_0.val = false;
+{
+gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
+}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
+{
+gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Inventory");
+}}
+if (gdjs.FarmCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "Inventory");
+}{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1);
+}}
+
+}
+
 
 {
 
@@ -2208,7 +2227,7 @@ gdjs.FarmCode.condition1IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(run
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8652636);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10030028);
 }
 }}
 }
@@ -2246,32 +2265,6 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runti
 { //Subevents
 gdjs.FarmCode.eventsList26(runtimeScene);} //End of subevents
 }
-
-}
-
-
-{
-
-
-gdjs.FarmCode.condition0IsTrue_0.val = false;
-gdjs.FarmCode.condition1IsTrue_0.val = false;
-gdjs.FarmCode.condition2IsTrue_0.val = false;
-{
-gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
-}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
-{
-gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Inventory");
-}if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
-{
-{gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9695644);
-}
-}}
-}
-if (gdjs.FarmCode.condition2IsTrue_0.val) {
-{gdjs.evtTools.camera.hideLayer(runtimeScene, "Inventory");
-}{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1);
-}}
 
 }
 
@@ -2484,7 +2477,7 @@ gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(g
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10616564);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10064212);
 }
 }}
 }
@@ -2518,7 +2511,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8648252);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10065884);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -2546,7 +2539,7 @@ gdjs.FarmCode.condition1IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(g
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8643364);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10066644);
 }
 }}
 }
@@ -2583,7 +2576,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9859596);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10068884);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -2608,7 +2601,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8280780);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10069916);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -2641,7 +2634,7 @@ gdjs.FarmCode.conditionTrue_1.val = (10 <= (gdjs.RuntimeObject.getVariableNumber
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10057180);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10071572);
 }
 }}
 }
@@ -2669,7 +2662,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeS
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10349420);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10072644);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -2764,7 +2757,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.FarmCode.GDPlayerObjects1
 gdjs.FarmCode.condition0IsTrue_0.val = false;
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition0IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7991876);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10135004);
 }
 }if (gdjs.FarmCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.FarmCode.GDGunObjects1, gdjs.FarmCode.GDGunObjects2);
@@ -2854,7 +2847,7 @@ gdjs.FarmCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }if ( gdjs.FarmCode.condition2IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition3IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8604324);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10138252);
 }
 }}
 }
@@ -2960,7 +2953,7 @@ gdjs.FarmCode.conditionTrue_1.val = (gdjs.evtTools.string.subStr(gdjs.evtTools.c
 }if ( gdjs.FarmCode.condition1IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition2IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10094428);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10142892);
 }
 }}
 }
@@ -2998,7 +2991,7 @@ for(var i = 0, k = 0, l = gdjs.FarmCode.GDFarmLandObjects2.length;i<l;++i) {
 gdjs.FarmCode.GDFarmLandObjects2.length = k;}if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9151588);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10144428);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -3037,7 +3030,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7147236);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10141204);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
@@ -3287,7 +3280,7 @@ gdjs.FarmCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 }if ( gdjs.FarmCode.condition0IsTrue_0.val ) {
 {
 {gdjs.FarmCode.conditionTrue_1 = gdjs.FarmCode.condition1IsTrue_0;
-gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8712356);
+gdjs.FarmCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10147436);
 }
 }}
 if (gdjs.FarmCode.condition1IsTrue_0.val) {
