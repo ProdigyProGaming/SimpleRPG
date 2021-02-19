@@ -767,6 +767,24 @@
         "name": "NewObject2-1-19.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestCavesMap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestCavesMap2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2852,6 +2870,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SolidObject",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -3157,7 +3214,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.808
+        "zoomFactor": 0.568
       },
       "objectsGroups": [
         {
@@ -4859,45 +4916,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "untitled.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "SolidObject",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11516,7 +11534,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 0.52
       },
       "objectsGroups": [],
       "variables": [],
@@ -12288,8 +12306,8 @@
           "name": "Player",
           "persistentUuid": "2887ffcf-6039-4a78-9cbc-09ea21b60980",
           "width": 0,
-          "x": 512,
-          "y": 1149,
+          "x": 1470,
+          "y": 520,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -12347,6 +12365,27 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "ChangeSceneInteraction",
+          "persistentUuid": "bd03fbc3-cb95-497e-a020-06f0fe215aaa",
+          "width": 0,
+          "x": 1511,
+          "y": 509,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SceneToSwitchTo",
+              "value": "Caves"
+            }
+          ]
         }
       ],
       "objects": [
@@ -12458,6 +12497,54 @@
                   "parameters": [
                     "LastSceneLoaded",
                     "=",
+                    "\"Caves\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1470",
+                    "=",
+                    "520"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
+                    "\"Farm\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
                     "\"Town Center\""
                   ],
                   "subInstructions": []
@@ -12548,6 +12635,1480 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CollisionLayer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Caves",
+      "name": "Caves",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.418
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "0a44b7a1-ef36-45e1-a1f9-ee9c7d4263fb",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBarValue",
+          "persistentUuid": "f3dd3cff-6f91-46bf-bf86-a61959a0be0b",
+          "width": 0,
+          "x": 518,
+          "y": 18,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBar",
+          "persistentUuid": "40dd1bf0-a316-4c54-a4dc-46118d9be6fb",
+          "width": 0,
+          "x": 10,
+          "y": 11,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "CurrencyText",
+          "persistentUuid": "6ad4e5f0-6ad5-49be-8ce6-ce96872dd6bc",
+          "width": 0,
+          "x": 15,
+          "y": 56,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HealthBarBackground",
+          "persistentUuid": "dcf49afd-101c-49d6-b43c-d26e454e208b",
+          "width": 0,
+          "x": 10,
+          "y": 11,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryBackground",
+          "persistentUuid": "ce44fe86-05c6-440e-ad11-dffd9a3ad8d2",
+          "width": 0,
+          "x": 608,
+          "y": 271,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "566ea78c-88a4-445e-bcba-25d611291f53",
+          "width": 0,
+          "x": 385,
+          "y": 187,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "65342c96-452f-42e7-9143-9ebbe9a2586b",
+          "width": 0,
+          "x": 479,
+          "y": 185,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "3f475ab7-b42c-4a20-b635-d16a9dc29029",
+          "width": 0,
+          "x": 577,
+          "y": 189,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "f7e2e874-2e8a-4064-91fa-4c0e80522135",
+          "width": 0,
+          "x": 671,
+          "y": 188,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "028c0780-9470-4b41-97ad-95267d0b0820",
+          "width": 0,
+          "x": 774,
+          "y": 200,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "a533f979-1ce0-4b51-b9ec-8f5736ad7dad",
+          "width": 0,
+          "x": 392,
+          "y": 279,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "3fc026b7-47fb-4ace-abbb-1168826bf26b",
+          "width": 0,
+          "x": 482,
+          "y": 274,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "0035e346-4efe-45b5-9b7c-c42791b5bfe9",
+          "width": 0,
+          "x": 591,
+          "y": 272,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "013e306b-5aca-4006-991a-2098de275604",
+          "width": 0,
+          "x": 677,
+          "y": 275,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "55780351-7774-4f2e-98cb-bdc98564905b",
+          "width": 0,
+          "x": 777,
+          "y": 275,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryTrashSlot",
+          "persistentUuid": "145007b3-7287-4144-988b-94c7ffe00c6e",
+          "width": 0,
+          "x": 921,
+          "y": 256,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "2d8a2ef8-65f4-4e75-bf6f-3ff3f4b868c5",
+          "width": 0,
+          "x": 425,
+          "y": 223,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "8a9e6741-e065-41ed-9e9f-f060cd29dce5",
+          "width": 0,
+          "x": 518,
+          "y": 219,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "4ef49b07-fd82-4dfa-a2f8-a63ff437b7f5",
+          "width": 0,
+          "x": 617,
+          "y": 224,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "9d7b00cc-30e7-4d36-b7ec-82ccb815317e",
+          "width": 0,
+          "x": 709,
+          "y": 224,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "c06514a7-fb41-4da6-a68c-3ceb1865e09b",
+          "width": 0,
+          "x": 805,
+          "y": 222,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "416d3193-a261-46ec-86d8-349e07144960",
+          "width": 0,
+          "x": 809,
+          "y": 312,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "26617ed8-36ea-4e94-863a-95f5f2b97dcf",
+          "width": 0,
+          "x": 708,
+          "y": 311,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "2d7e3789-f8df-4bde-80f0-5310b9163542",
+          "width": 0,
+          "x": 622,
+          "y": 307,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "f872fb4c-4796-480a-9dc3-35443396ae62",
+          "width": 0,
+          "x": 511,
+          "y": 306,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Inventory",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "258eb19e-e920-4639-b538-15bc0ec7e27e",
+          "width": 0,
+          "x": 421,
+          "y": 314,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Sword",
+          "persistentUuid": "e3df697c-fd94-4c10-8fde-17668816e502",
+          "width": 0,
+          "x": 241,
+          "y": 556,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Gun",
+          "persistentUuid": "62aaf089-bf96-418a-82ee-53cf03251a41",
+          "width": 0,
+          "x": 341,
+          "y": 486,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "5db60f99-0366-4c28-abd2-c31f11092a20",
+          "width": 0,
+          "x": 113,
+          "y": 481,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "b41a1ab0-40c2-468f-bc70-e84c31f3961e",
+          "width": 0,
+          "x": 850,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "720c5a9a-ce01-492c-b8ec-07ff5753199b",
+          "width": 0,
+          "x": 950,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "29db2a13-57a7-45ba-bdbb-201adc9cf980",
+          "width": 0,
+          "x": 1050,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "66013d32-3bda-4193-8f46-a7d867b0305d",
+          "width": 0,
+          "x": 1150,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventorySlot",
+          "persistentUuid": "51353788-4c87-46f6-ae62-1c96f72f2735",
+          "width": 0,
+          "x": 750,
+          "y": 630,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "d2d5cc05-a854-43d6-8137-b89ee20a0b2e",
+          "width": 0,
+          "x": 800,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "eb757c4b-1a23-48b8-9c63-49d648e82b7a",
+          "width": 0,
+          "x": 900,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "dfffa66c-9b34-4333-a056-43bd243625f9",
+          "width": 0,
+          "x": 1000,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "fce1a0a9-f1bb-4808-add0-c029161c4b0c",
+          "width": 0,
+          "x": 1100,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "InventoryQuantity",
+          "persistentUuid": "17862086-6334-4d11-9efa-32897ced8cc9",
+          "width": 0,
+          "x": 1200,
+          "y": 670,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "HotBarSelection",
+          "persistentUuid": "6eb4bce7-7d8a-4b80-8334-a2bbb4610daa",
+          "width": 0,
+          "x": 748,
+          "y": 628,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "ChangeSceneInteraction",
+          "persistentUuid": "ba1f329d-a859-44f7-bfa7-21473456239c",
+          "width": 0,
+          "x": 44,
+          "y": 268,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SceneToSwitchTo",
+              "value": "Farm"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 327,
+          "layer": "",
+          "locked": false,
+          "name": "CaveWalls",
+          "persistentUuid": "30ca7541-115d-487f-bf06-ee4bb842d0d7",
+          "width": 174,
+          "x": 1012.69,
+          "y": 280.422,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 335,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "ded4109d-c74d-444d-a937-2bcf2940273d",
+          "width": 177,
+          "x": 480,
+          "y": 386,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 190,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "63da58ab-daef-4e9d-9002-da36ea54988d",
+          "width": 179,
+          "x": 336,
+          "y": 531,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 322,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "99dff8c9-5755-4dcd-b704-09349428542d",
+          "width": 171,
+          "x": -9,
+          "y": -3,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 888,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "be3923bb-91be-44f8-b0fc-bb02d22a7b79",
+          "width": 24,
+          "x": -6,
+          "y": 318,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "68d7814c-010d-43d2-9589-2909784faec7",
+          "width": 1465,
+          "x": -9,
+          "y": 1187,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "8bfde4e8-fd56-4e47-8ba5-f653f26ca772",
+          "width": 0,
+          "x": 98,
+          "y": 1155,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 87,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "e2b3fb10-bda0-4014-8344-d456856ae8ad",
+          "width": 1327,
+          "x": 129,
+          "y": 1123,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "965526ab-ccc0-4b29-a95e-1e731c6d234d",
+          "width": 1045,
+          "x": 402,
+          "y": 1075,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "472c3032-c51f-445b-b98b-f8763d0c74c7",
+          "width": 631,
+          "x": 819,
+          "y": 1010,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 103,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "7338eb45-5d87-4be4-84fc-fca3495effc0",
+          "width": 600,
+          "x": 850,
+          "y": 915,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "dd41cfdd-616c-4d45-932a-d00b8fc8f29b",
+          "width": 519,
+          "x": 931,
+          "y": 836,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 864,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "d1ec963a-50d8-4df4-aacf-20d82d5a39d0",
+          "width": 29,
+          "x": 1423,
+          "y": -2,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 158,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "1ac84614-5f0d-44b8-bb88-faa55dff33b5",
+          "width": 467,
+          "x": 960,
+          "y": 402,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 104,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "6ab7b068-6fab-4f8d-b19f-97dd4af515ab",
+          "width": 403,
+          "x": 1040,
+          "y": 551,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "71d75c4c-f167-4778-9542-611c9abf05b6",
+          "width": 1470,
+          "x": -9,
+          "y": -16,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TestCavesMap2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Town Center"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "0",
+                "0",
+                "1440",
+                "1200",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
+                    "\"Farm\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "60",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "LastSceneLoaded",
+                    "=",
+                    "\"Caves\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "13",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy",
+                    "Random(1440)",
+                    "Random(1200)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "SolidObject",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "=",
+                    "Random(1440)",
+                    "=",
+                    "Random(1200)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Enemy",
+                "300",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemy",
+                "Player",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 7392720,
+          "ambientLightColorG": 9287424,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 32,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "CollisionLayer",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": 167797870,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Inventory",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HUD",
           "visibility": true,
           "cameras": [],
           "effects": []
