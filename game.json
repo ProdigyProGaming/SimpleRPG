@@ -3396,6 +3396,89 @@
     {
       "name": "InventoryIsShown",
       "value": "0"
+    },
+    {
+      "name": "SeedTypes",
+      "children": [
+        {
+          "name": "Seed1",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "25"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "name": "Seed2",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "60"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "52"
+            }
+          ]
+        },
+        {
+          "name": "Seed3",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "80"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "60"
+            }
+          ]
+        },
+        {
+          "name": "Seed4",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "175"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "120"
+            }
+          ]
+        },
+        {
+          "name": "Seed5",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "320"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "132"
+            }
+          ]
+        },
+        {
+          "name": "Seed6",
+          "children": [
+            {
+              "name": "SellPrice",
+              "value": "20000"
+            },
+            {
+              "name": "TotalDuration",
+              "value": "480"
+            }
+          ]
+        }
+      ]
     }
   ],
   "layouts": [
@@ -10406,7 +10489,18 @@
                   },
                   "parameters": [
                     "",
-                    "Tab"
+                    "e"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShopUI\""
                   ],
                   "subInstructions": []
                 },
@@ -12382,7 +12476,7 @@
         "gridR": 158,
         "gridWidth": 32,
         "snap": true,
-        "windowMask": false,
+        "windowMask": true,
         "zoomFactor": 0.298
       },
       "objectsGroups": [],
