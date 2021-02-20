@@ -482,24 +482,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1-11.png",
         "kind": "image",
         "metadata": "",
@@ -572,15 +554,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Slot-1 - Copy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Slot-1 - Copy.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Slot-1-0 - Copy.png",
         "kind": "image",
         "metadata": "",
@@ -617,15 +590,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Gun1-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gun1-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1-17.png",
         "kind": "image",
         "metadata": "",
@@ -648,15 +612,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Empty-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Sword1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sword1-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -720,15 +675,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Gun1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Gun1-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gun1-1-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -920,6 +866,141 @@
         "name": "Seed1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kisspng-pixel-art-sword-5af2ba5f2821c4.6339186515258568631644.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kisspng-pixel-art-sword-5af2ba5f2821c4.6339186515258568631644.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kisspng-pixel-art-sword-5af2ba5f2821c4.63391865152585686316442.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kisspng-pixel-art-sword-5af2ba5f2821c4.63391865152585686316442.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6a95ed045c51f7bc33edb4eef8832ab8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6a95ed045c51f7bc33edb4eef8832ab8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6a95ed045c51f7bc33edb4eef8832ab8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6a95ed045c51f7bc33edb4eef8832ab8-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6a95ed045c51f7bc33edb4eef8832ab8-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6a95ed045c51f7bc33edb4eef8832ab8-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6a95ed045c51f7bc33edb4eef8832ab8-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6a95ed045c51f7bc33edb4eef8832ab8-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun1-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun1-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kisspng-pixel-art-sword-5af2ba5f2821c4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kisspng-pixel-art-sword-5af2ba5f2821c4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sword1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sword1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Slot-1 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Slot-1 - Copy.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1948,7 +2029,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewObject2",
+          "name": "6a95ed045c51f7bc33edb4eef8832ab8",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1957,12 +2038,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject2-1-10.png",
+                  "image": "6a95ed045c51f7bc33edb4eef8832ab8-1-1.png",
                   "points": [
                     {
                       "name": "BulletSpawn",
-                      "x": 17,
-                      "y": 3
+                      "x": 36,
+                      "y": 5
                     }
                   ],
                   "originPoint": {
@@ -1973,8 +2054,8 @@
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 5,
-                    "y": 18
+                    "x": 6,
+                    "y": 23
                   },
                   "customCollisionMask": []
                 }
@@ -2142,7 +2223,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewObject2",
+          "name": "kisspng-pixel-art-sword-5af2ba5f2821c4",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2151,18 +2232,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject2-1.png",
+                  "image": "kisspng-pixel-art-sword-5af2ba5f2821c4-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 7,
-                    "y": 40
+                    "x": 8,
+                    "y": 54
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 7,
-                    "y": 40
+                    "x": 8,
+                    "y": 54
                   },
                   "customCollisionMask": []
                 }
@@ -2530,11 +2611,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Sword1\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAk0lEQVR4Xu3ZAQ0AIQwDwGJzAmfzCcm76OGABkYvnCRfitd5AcxMZQS7GwE4Aa6AGWAIegU8g3qAItSYgCaoCrMADNEgDdIgDdIgDdIgDTZaKDAEQzAEQzAEQzAEQzAEQzAEQzDUmAAN0iAN0iAN0iAN0iAN0iAN0mCjhXyN0SAN0iAN0iAN0iAN0mC9Bish8G/6AqH8+gEwGts8AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"D:\\\\Arron\\\\Github\\\\SimpleRPG\\\\Sword1-1.png\"],\"name\":\"Sword1\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Slot-1.png",
+                  "image": "Sword1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2646,11 +2728,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Gun1\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAk0lEQVR4Xu3ZAQ0AIQwDwGJzAmfzCcm76OGABkYvnCRfitd5AcxMZQS7GwE4Aa6AGWAIegU8g3qAItSYgCaoCrMADNEgDdIgDdIgDdIgDTZaKDAEQzAEQzAEQzAEQzAEQzAEQzDUmAAN0iAN0iAN0iAN0iAN0iAN0mCjhXyN0SAN0iAN0iAN0iAN0mC9Bish8G/6AqH8+gEwGts8AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACZElEQVR4Xu1YO47CMBA1gYTwERehoKOiQ7SIAgoOwAkRJ4AKiQIhUXEDKpAgEZ/syiPGclabXYeEXeQZN8bjcWy/eW8moSCItwLx+wsGgBlAHAGWAHECcBJkCbAEiCPAEiBOAK4CLAGWAHEEWALECcBVgCXwKgn4vv8hn325XNQWpVJJOI4D4/v9ruzyt+d5sbEcXK9XsPm+HztmFEWxZ2jPSh3Q1AtMASMHgOu6EHGMGgI1GAwUZqfTSczncxh3u11ln0wmAqMqjciGIAjAp1gsQo/sCcMQxrVaDfrRaAR9GIapA5p6QRIDGIAHA9rtdgwjXdvH41FsNhuYv91uym84HMYYgHkDtY+sQjtGHsfT6RRzQuqApl7wGwPIAuA4DuQA1CsCgXqVc6vV6lv8KpWKQL1LB9d1we9rPkFGVKtVmD8cDk9HHg+SGwMYAOoM0LgNUsDWaDTUb1kGx+MxjGVCxCZloyfF2WwGU1EU5cbQpNyV2wZYBnu9HuwldS3bbrdTe6/Xa1XLm82msm+329iboJYPcjsfA5CAQGaE8ZW30+nAFlj3keKLxULfuuB5HkhE/xaQa4IgyHyWpCj/ZM+8KQPw+OojywAhBFC63+8D0/b7PfT4yns+nxUDy+Xyv1H9lUmQNgD1eh0AaLVaADImt+Vy+We1/Jnkh2syJ0HyACCSWN60v8Ayg5slsqZrczskeQBMEX83v9wY8G4XMz0PA2CKlK1+zABbI2t6L2aAKVK2+jEDbI2s6b2YAaZI2erHDLA1sqb3YgaYImWrHzPA1sia3osZYIqUrX7MAFsja3qvT9G3ZVC+bOgxAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"D:\\\\Arron\\\\Github\\\\SimpleRPG\\\\Gun1-1-1.png\"],\"name\":\"Gun1\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Gun1-1.png",
+                  "image": "Gun1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4369,7 +4452,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.568
+        "zoomFactor": 0.472
       },
       "objectsGroups": [
         {
@@ -6049,6 +6132,70 @@
               "value": "Farm"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 875,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "9576efa5-bc8a-4b09-9a6d-acbdfcde4fbd",
+          "width": 30,
+          "x": -30,
+          "y": -13,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "4da2a5d4-d015-4741-8de7-c2c86ce43326",
+          "width": 1659,
+          "x": -12,
+          "y": 800,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 806,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "08eab71e-7cb1-4493-8736-668b115b5b2e",
+          "width": 31,
+          "x": 1600,
+          "y": 0,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "CollisionLayer",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "eab32c28-19ff-460a-957c-41b52d74977c",
+          "width": 1665,
+          "x": -30,
+          "y": -31,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7577,7 +7724,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Start Of Scene",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7732,18 +7879,6 @@
                     "UpdateSelected",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetFullScreen"
-                  },
-                  "parameters": [
-                    "yes",
-                    "no",
-                    ""
                   ],
                   "subInstructions": []
                 }
@@ -7902,7 +8037,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Farm Counter",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8017,7 +8152,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Mouse Block (For Paused State or UI Click)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8251,7 +8386,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Shop",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11104,6 +11239,16 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Quit"
                   },
                   "parameters": [
@@ -11251,7 +11396,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Inventory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12781,7 +12926,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Change Scenes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13458,7 +13603,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.97
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -13972,8 +14117,8 @@
           "name": "Sword",
           "persistentUuid": "4cdc0b51-2ab8-423d-ad9c-08b1e99c7a56",
           "width": 0,
-          "x": -62,
-          "y": 588,
+          "x": 735,
+          "y": 565,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -13988,8 +14133,8 @@
           "name": "Gun",
           "persistentUuid": "7678a5f6-ac01-43c1-b20a-70c5aed4b62f",
           "width": 0,
-          "x": -52,
-          "y": 486,
+          "x": 626,
+          "y": 448,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -15379,32 +15524,64 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "HUD",
+          "customSize": true,
+          "height": 1304,
+          "layer": "",
           "locked": false,
-          "name": "Temp1",
-          "persistentUuid": "70668275-edc4-4bd4-b554-4b98a6dfbbd3",
-          "width": 0,
-          "x": 849,
-          "y": 193,
-          "zOrder": 42,
+          "name": "SolidObject",
+          "persistentUuid": "c23f8501-6f79-4354-9620-7822c04c2dff",
+          "width": 64,
+          "x": -64,
+          "y": -27,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "HUD",
+          "customSize": true,
+          "height": 64,
+          "layer": "",
           "locked": false,
-          "name": "Temp2",
-          "persistentUuid": "831f9408-231e-4e3a-a3b4-24a5314635d3",
-          "width": 0,
-          "x": 1051,
-          "y": 183,
-          "zOrder": 43,
+          "name": "SolidObject",
+          "persistentUuid": "a1497206-59b2-4038-9f2c-1e68d61cbb8c",
+          "width": 1615,
+          "x": -24,
+          "y": 1200,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1201,
+          "layer": "",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "ff817ca9-6820-4912-a04c-6c0a86661322",
+          "width": 64,
+          "x": 1520,
+          "y": 0,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "SolidObject",
+          "persistentUuid": "a31537b9-9b46-4b19-9d86-9369483ec0d1",
+          "width": 1620,
+          "x": -32,
+          "y": -64,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17254,7 +17431,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [],
@@ -17813,26 +17990,10 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Gun",
-          "persistentUuid": "62aaf089-bf96-418a-82ee-53cf03251a41",
-          "width": 0,
-          "x": 341,
-          "y": 486,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "Player",
           "persistentUuid": "5db60f99-0366-4c28-abd2-c31f11092a20",
           "width": 0,
-          "x": 30,
+          "x": 45,
           "y": 347,
           "zOrder": 29,
           "numberProperties": [],
@@ -18357,6 +18518,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ExitArrow",
+          "persistentUuid": "525b056a-88db-4eeb-bb74-53f3e09f71af",
+          "width": 0,
+          "x": 28,
+          "y": 355,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18423,6 +18600,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ExitArrow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19486,7 +19702,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CollisionLayer",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
