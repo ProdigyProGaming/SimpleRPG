@@ -3479,6 +3479,869 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Farm",
+      "children": [
+        {
+          "name": "Slot01",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot02",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot03",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot04",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot05",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot06",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot07",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot08",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot09",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot10",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot11",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot12",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot13",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot14",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot15",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot16",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot17",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot18",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot19",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot20",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot21",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot22",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot23",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot24",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot25",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot26",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot27",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot28",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot29",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot30",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot31",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot32",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot33",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot34",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot35",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot36",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot37",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot38",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot39",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot40",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot41",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot42",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot43",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot44",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot45",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot46",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot47",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot48",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot49",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "Slot50",
+          "children": [
+            {
+              "name": "CurrentDuration",
+              "value": "0"
+            },
+            {
+              "name": "SeedType",
+              "value": "Empty"
+            },
+            {
+              "name": "Stage",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecondsPassed",
+      "value": "0"
+    },
+    {
+      "name": "UpdateFarm",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -5297,7 +6160,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "1"
+                          "value": "5"
                         }
                       ]
                     },
@@ -6794,6 +7657,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"FarmCounter\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Cache"
                   },
                   "parameters": [
@@ -6868,7 +7742,7 @@
                   },
                   "parameters": [
                     "yes",
-                    "yes",
+                    "no",
                     ""
                   ],
                   "subInstructions": []
@@ -7013,6 +7887,121 @@
                     "",
                     "",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Farm Counter",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "CurrentSceneName()",
+                    "!=",
+                    "\"Farm\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsPassed",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"FarmCounter\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "CurrentSceneName()",
+                    "!=",
+                    "\"Farm\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsPassed",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"FarmCounter\""
                   ],
                   "subInstructions": []
                 }
@@ -12357,14 +13346,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -12477,7 +13458,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.298
+        "zoomFactor": 0.97
       },
       "objectsGroups": [],
       "variables": [],
@@ -13344,7 +14325,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "50"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13360,7 +14346,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "49"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13376,7 +14367,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "48"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13392,7 +14388,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "47"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13408,7 +14409,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "46"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13424,7 +14430,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "41"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13440,7 +14451,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "42"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13456,7 +14472,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "43"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13472,7 +14493,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "44"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13488,7 +14514,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "45"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13504,7 +14535,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "31"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13520,7 +14556,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "36"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13536,7 +14577,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "32"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13552,7 +14598,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "37"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13568,7 +14619,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "33"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13584,7 +14640,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "38"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13600,7 +14661,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "34"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13616,7 +14682,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "39"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13632,7 +14703,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "35"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13648,7 +14724,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "40"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13664,7 +14745,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "26"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13680,7 +14766,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "27"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13696,7 +14787,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "28"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13712,7 +14808,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "29"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13728,7 +14829,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "30"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13744,7 +14850,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "01"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13760,7 +14871,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "02"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13776,7 +14892,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "03"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13792,7 +14913,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "04"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13808,7 +14934,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "05"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13824,7 +14955,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "06"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13840,7 +14976,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "07"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13856,7 +14997,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "08"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13872,7 +15018,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "09"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13888,7 +15039,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "10"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13904,7 +15060,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "15"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13920,7 +15081,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "14"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13936,7 +15102,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "13"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13952,7 +15123,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "12"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13968,7 +15144,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "11"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -13984,7 +15165,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "16"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14000,7 +15186,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "17"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14016,7 +15207,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "18"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14032,7 +15228,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "19"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14048,7 +15249,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "20"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14064,7 +15270,12 @@
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "25"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14080,7 +15291,12 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "24"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14096,7 +15312,12 @@
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "23"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14112,7 +15333,12 @@
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "22"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14128,7 +15354,12 @@
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Slot",
+              "value": "21"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14142,6 +15373,38 @@
           "x": 78,
           "y": 138,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "Temp1",
+          "persistentUuid": "70668275-edc4-4bd4-b554-4b98a6dfbbd3",
+          "width": 0,
+          "x": 849,
+          "y": 193,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "Temp2",
+          "persistentUuid": "831f9408-231e-4e3a-a3b4-24a5314635d3",
+          "width": 0,
+          "x": 1051,
+          "y": 183,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14287,6 +15550,10 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Slot",
+              "value": ""
             }
           ],
           "behaviors": [],
@@ -14505,6 +15772,44 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Temp1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Temp2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -14653,6 +15958,74 @@
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "FarmLand",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "FarmLand",
+                        "\"Stage\" + GlobalVariableString(Farm[\"Slot\"+FarmLand.VariableString(Slot)].Stage)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\"+FarmLand.VariableString(Slot)].SeedType",
+                            "!=",
+                            "\"Empty\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\"+FarmLand.VariableString(Slot)].CurrentDuration",
+                            "+",
+                            "GlobalVariable(SecondsPassed)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "UpdateFarm",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             },
@@ -15203,11 +16576,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "VarObjetTxt"
+                                "value": "VarGlobalTxt"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "SeedType",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType",
                                 "=",
                                 "\"Empty\""
                               ],
@@ -15238,11 +16610,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjetTxt"
+                                "value": "ModVarGlobalTxt"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "SeedType",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType",
                                 "=",
                                 "GlobalVariableString(Inventory[\"Slot\"+GlobalVariableString(SelectedItem)].Item)"
                               ],
@@ -15251,11 +16622,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjet"
+                                "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "Stage",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
                                 "=",
                                 "1"
                               ],
@@ -15295,11 +16665,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "VarObjet"
+                                "value": "VarGlobal"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "Stage",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
                                 "=",
                                 "5"
                               ],
@@ -15323,7 +16692,7 @@
                               "parameters": [
                                 "Player.Coins",
                                 "+",
-                                "FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].SellPrice)"
+                                "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].SellPrice)"
                               ],
                               "subInstructions": []
                             },
@@ -15343,11 +16712,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjetTxt"
+                                "value": "ModVarGlobalTxt"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "SeedType",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType",
                                 "=",
                                 "\"Empty\""
                               ],
@@ -15356,11 +16724,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjet"
+                                "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "CurrentDuraction",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
                                 "=",
                                 "0"
                               ],
@@ -15369,11 +16736,10 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjet"
+                                "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "FarmLand",
-                                "Stage",
+                                "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
                                 "=",
                                 "0"
                               ],
@@ -15440,14 +16806,35 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Timer"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"FarmLandUpdate\""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"FarmLandUpdate\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "UpdateFarm",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 },
                 {
                   "type": {
@@ -15469,33 +16856,34 @@
                     "\"FarmLandUpdate\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "UpdateFarm",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "FarmLand",
                   "conditions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "AjoutObjConcern"
+                        "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "",
-                        "FarmLand"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "FarmLand",
-                        "SeedType",
+                        "Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType",
                         "!=",
                         "\"Empty\""
                       ],
@@ -15512,13 +16900,12 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "VarObjet"
+                            "value": "VarGlobal"
                           },
                           "parameters": [
-                            "FarmLand",
-                            "CurrentDuraction",
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
                             "<",
-                            "FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].TotalDuration)"
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)"
                           ],
                           "subInstructions": []
                         }
@@ -15527,11 +16914,10 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ModVarObjet"
+                            "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "FarmLand",
-                            "CurrentDuraction",
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
                             "+",
                             "1"
                           ],
@@ -15548,53 +16934,50 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "VarObjet"
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            ">=",
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)/4"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            "<",
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)/2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeAnimation"
                           },
                           "parameters": [
                             "FarmLand",
-                            "CurrentDuraction",
                             "=",
-                            "FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].TotalDuration)"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "FarmLand",
-                            "+",
-                            "1"
+                            "2"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ModVarObjet"
+                            "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "FarmLand",
-                            "Stage",
-                            "+",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "FarmLand",
-                            "CurrentDuraction",
-                            "+",
-                            "1"
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -15609,50 +16992,26 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "VarGlobal"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "FarmLand",
-                                "CurrentDuraction",
-                                "=",
-                                "FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].TotalDuration) / 4"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "FarmLand",
-                                "CurrentDuraction",
-                                "=",
-                                "FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].TotalDuration) / 2"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "FarmLand",
-                                "CurrentDuraction",
-                                "=",
-                                "(FarmLand.Variable(SeedTypes[FarmLand.VariableString(SeedType)].TotalDuration) / 4) * 3"
-                              ],
-                              "subInstructions": []
-                            }
-                          ]
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            ">=",
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)/2"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            "<",
+                            "(GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)/4)*3"
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "actions": [
@@ -15663,19 +17022,134 @@
                           },
                           "parameters": [
                             "FarmLand",
-                            "+",
-                            "1"
+                            "=",
+                            "3"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ModVarObjet"
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
+                            "=",
+                            "3"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            ">=",
+                            "(GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)/4)*3"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            "<",
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeAnimation"
                           },
                           "parameters": [
                             "FarmLand",
-                            "Stage",
+                            "=",
+                            "4"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
+                            "=",
+                            "4"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
+                            ">=",
+                            "GlobalVariable(SeedTypes[GlobalVariableString(Farm[\"Slot\" + FarmLand.VariableString(Slot)].SeedType)].TotalDuration)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "FarmLand",
+                            "=",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].Stage",
+                            "=",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Farm[\"Slot\" + FarmLand.VariableString(Slot)].CurrentDuration",
                             "+",
                             "1"
                           ],
