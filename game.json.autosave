@@ -6777,6 +6777,16 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AdvancedWindow::SetFullScreenable"
+                  },
+                  "parameters": [
+                    "yes"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -6841,6 +6851,48 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "l"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShopUI\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -7180,6 +7232,18 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryIsShown",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7230,11 +7294,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ShowLayer"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "\"Inventory\""
+                    "InventoryIsShown",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -11631,7 +11696,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Change Scenes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11660,12 +11725,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "ChangeSceneInteraction.VariableString(SceneToSwitchTo)",
-                    ""
+                    "ChangeSceneInteraction.VariableString(SceneToSwitchTo)"
                   ],
                   "subInstructions": []
                 }
@@ -12317,7 +12381,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.61
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [],

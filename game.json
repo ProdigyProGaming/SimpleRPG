@@ -6781,10 +6781,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AdvancedWindow::SetFullScreenable"
+                    "value": "SetFullScreen"
                   },
                   "parameters": [
-                    "yes"
+                    "yes",
+                    "yes",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -6864,7 +6866,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "l"
                   ],
                   "subInstructions": []
                 },
@@ -7232,6 +7234,18 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InventoryIsShown",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7282,11 +7296,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ShowLayer"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "\"Inventory\""
+                    "InventoryIsShown",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -11683,7 +11698,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Change Scenes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11712,12 +11727,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Scene"
+                    "value": "PushScene"
                   },
                   "parameters": [
                     "",
-                    "ChangeSceneInteraction.VariableString(SceneToSwitchTo)",
-                    ""
+                    "ChangeSceneInteraction.VariableString(SceneToSwitchTo)"
                   ],
                   "subInstructions": []
                 }
@@ -12369,7 +12383,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.61
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
