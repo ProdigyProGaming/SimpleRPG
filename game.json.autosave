@@ -13,7 +13,7 @@
     "packageName": "com.example.gamename",
     "projectUuid": "f648993a-cd0a-47cc-9c9a-9fea216a4223",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Project",
