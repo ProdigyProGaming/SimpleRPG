@@ -1393,6 +1393,24 @@
         "metadata": "",
         "name": "Ludum Dare 38 - Track 1.ogg",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-21.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3577,6 +3595,64 @@
           ]
         }
       ]
+    },
+    {
+      "name": "StatsBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "StatsText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsGroups": [],
@@ -4820,7 +4896,7 @@
     },
     {
       "name": "SoundVolume",
-      "value": "100"
+      "value": "50"
     },
     {
       "name": "EnableCheatMenu",
@@ -4838,6 +4914,14 @@
           "value": "0"
         }
       ]
+    },
+    {
+      "name": "StatsMenu",
+      "value": "0"
+    },
+    {
+      "name": "Deaths",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -4865,7 +4949,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.856
+        "zoomFactor": 0.664
       },
       "objectsGroups": [
         {
@@ -6606,6 +6690,38 @@
           "x": -30,
           "y": -31,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsBackground",
+          "persistentUuid": "e223bfcc-6354-4b81-8ce9-8c1b55b88871",
+          "width": 0,
+          "x": 846,
+          "y": 46,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsText",
+          "persistentUuid": "96cf26eb-495a-4bb6-a017-ded6b972dfca",
+          "width": 0,
+          "x": 856,
+          "y": 56,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8837,7 +8953,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Shop",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11087,7 +11203,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Gun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11603,7 +11719,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Health Managment",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11690,20 +11806,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Cache"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "Player"
+                    "",
+                    "\"Main Menu\"",
+                    ""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Quit"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    ""
+                    "Deaths",
+                    "+",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -13377,7 +13497,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Change Scenes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13523,327 +13643,8 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
-          "name": "Temp Switch Weapons (Before Inventory is added)",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "NbObjet"
-                  },
-                  "parameters": [
-                    "Sword",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Sword",
-                    "0",
-                    "0",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Sword"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Sword",
-                    "Damage",
-                    "=",
-                    "10"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Sword",
-                    "Knockback",
-                    "=",
-                    "2000"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Sword",
-                    "Speed",
-                    "=",
-                    "0.05"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Weapon",
-                    "=",
-                    "\"Sword\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "NbObjet"
-                  },
-                  "parameters": [
-                    "Gun",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Gun",
-                    "0",
-                    "0",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Gun"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Gun",
-                    "Damage",
-                    "=",
-                    "10"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Gun",
-                    "Range",
-                    "=",
-                    "300"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Gun",
-                    "Speed",
-                    "=",
-                    "0.4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Gun",
-                    "BulletSpeed",
-                    "=",
-                    "500"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Weapon",
-                    "=",
-                    "\"Gun\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Temp Damage (Before Enemies Added)",
+          "folded": false,
+          "name": "Stats Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -13879,103 +13680,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player.Health",
-                    "-",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "UpdateHealth",
+                    "StatsMenu",
                     "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Temp Spend Money (Before Implementing Buying items)",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "NumpadSubtract"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Egal"
-                  },
-                  "parameters": [
-                    "10",
-                    "<=",
-                    "Player.Variable(Coins)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Coins",
-                    "-",
-                    "10"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "CurrencyText",
-                    "UpdateText",
-                    "=",
-                    "1"
+                    "1-GlobalVariable(StatsMenu)"
                   ],
                   "subInstructions": []
                 }
@@ -13990,20 +13697,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "NumpadAdd"
+                    "StatsMenu",
+                    "=",
+                    "0"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -14011,26 +13711,76 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "Player",
-                    "Coins",
-                    "+",
-                    "10"
+                    "StatsBackground"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "CurrencyText",
-                    "UpdateText",
+                    "StatsText"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "StatsMenu",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "StatsBackground",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "StatsText",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "StatsText",
+                    "=",
+                    "\"Deaths: \" + GlobalVariableString(Deaths)"
                   ],
                   "subInstructions": []
                 }
@@ -16130,6 +15880,38 @@
           "x": -32,
           "y": -64,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsText",
+          "persistentUuid": "504a8ddd-e2a0-4dd9-8289-e1fc9f864c6a",
+          "width": 0,
+          "x": 856,
+          "y": 56,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsBackground",
+          "persistentUuid": "54d93533-b0f7-4c66-9bf1-29c3fd525a0d",
+          "width": 0,
+          "x": 846,
+          "y": 46,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19082,6 +18864,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsText",
+          "persistentUuid": "543f7d5f-b92a-4c7b-8f3b-9fa329e1a41f",
+          "width": 0,
+          "x": 856,
+          "y": 56,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "StatsBackground",
+          "persistentUuid": "f4296f21-f60c-4f8b-8965-41a8dfe86f56",
+          "width": 0,
+          "x": 846,
+          "y": 46,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -21413,10 +21227,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModGlobalVolume"
+                "value": "ModVolumeSoundCanal"
               },
               "parameters": [
                 "",
+                "0",
                 "+",
                 "5"
               ],
@@ -21516,10 +21331,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModGlobalVolume"
+                "value": "ModVolumeSoundCanal"
               },
               "parameters": [
                 "",
+                "0",
                 "-",
                 "5"
               ],
@@ -21807,8 +21623,8 @@
           "name": "ControlsText",
           "persistentUuid": "76639158-1328-4101-8c12-c8853bc4cec9",
           "width": 0,
-          "x": 307,
-          "y": 177,
+          "x": 310,
+          "y": 150,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -21823,8 +21639,8 @@
           "name": "AimText",
           "persistentUuid": "fb1654d9-5c4a-408e-9729-f0d79c328af8",
           "width": 0,
-          "x": 309,
-          "y": 33,
+          "x": 310,
+          "y": 10,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -21897,7 +21713,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C",
+          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C\nShow Stats in Game: / ",
           "font": "",
           "characterSize": 30,
           "color": {
