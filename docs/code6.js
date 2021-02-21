@@ -2225,7 +2225,7 @@ if (gdjs.CavesCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.CavesCode.GDInventoryQuantityObjects2 */
 /* Reuse gdjs.CavesCode.GDInventorySlotObjects2 */
 /* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects2 */
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 620), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360), "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.CavesCode.mapOfGDgdjs_46CavesCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 680), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360), "");
 }{for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
     gdjs.CavesCode.GDInventoryMovingSlotObjects2[i].setAnimationName((( gdjs.CavesCode.GDInventorySlotObjects2.length === 0 ) ? "" :gdjs.CavesCode.GDInventorySlotObjects2[0].getAnimationName()));
 }
@@ -2256,7 +2256,7 @@ gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(
 }if (gdjs.CavesCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.CavesCode.GDInventoryMovingSlotObjects1 */
 {for(var i = 0, len = gdjs.CavesCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
-    gdjs.CavesCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 620),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
+    gdjs.CavesCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 680),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
 }
 }
 { //Subevents

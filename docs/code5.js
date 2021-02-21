@@ -2403,7 +2403,7 @@ if (gdjs.Town_32CenterCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.Town_32CenterCode.GDInventoryQuantityObjects2 */
 /* Reuse gdjs.Town_32CenterCode.GDInventorySlotObjects2 */
 /* Reuse gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects2 */
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Town_32CenterCode.mapOfGDgdjs_46Town_9532CenterCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 620), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360), "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Town_32CenterCode.mapOfGDgdjs_46Town_9532CenterCode_46GDInventoryMovingSlotObjects2Objects, gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 680), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360), "");
 }{for(var i = 0, len = gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects2.length ;i < len;++i) {
     gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects2[i].setAnimationName((( gdjs.Town_32CenterCode.GDInventorySlotObjects2.length === 0 ) ? "" :gdjs.Town_32CenterCode.GDInventorySlotObjects2[0].getAnimationName()));
 }
@@ -2434,7 +2434,7 @@ gdjs.Town_32CenterCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjec
 }if (gdjs.Town_32CenterCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects1 */
 {for(var i = 0, len = gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects1.length ;i < len;++i) {
-    gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 620),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
+    gdjs.Town_32CenterCode.GDInventoryMovingSlotObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) - 680),gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - (gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - 360));
 }
 }
 { //Subevents
