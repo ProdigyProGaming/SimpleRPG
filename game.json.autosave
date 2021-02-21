@@ -4922,6 +4922,10 @@
     {
       "name": "Deaths",
       "value": "0"
+    },
+    {
+      "name": "ShopIsShown",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -7859,7 +7863,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [],
@@ -13606,7 +13610,7 @@
                         },
                         {
                           "name": "StockLeft",
-                          "value": "5"
+                          "value": "0"
                         }
                       ]
                     },
@@ -15374,7 +15378,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Farm Counter",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15489,7 +15493,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Mouse Block (For Paused State or UI Click)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15736,22 +15740,87 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyReleased"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Player",
+                    "ShopInteraction",
                     "",
-                    "Escape"
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "LayerVisible"
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Escape"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "\"ShopUI\""
+                    "ShopIsShown",
+                    "=",
+                    "1-GlobalVariable(ShopIsShown)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "ShopIsShown",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -15765,6 +15834,17 @@
                   "parameters": [
                     "",
                     "\"ShopUI\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Inventory\""
                   ],
                   "subInstructions": []
                 },
@@ -15804,11 +15884,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "",
-                    "e"
+                    "ShopIsShown",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -16736,7 +16817,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Solid Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16786,7 +16867,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17352,7 +17433,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sword",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17682,7 +17763,7 @@
                       "parameters": [
                         "Sword",
                         "=",
-                        "Player.ZOrder()+1"
+                        "Player.ZOrder()-1"
                       ],
                       "subInstructions": []
                     }
@@ -17949,7 +18030,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Gun",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18585,7 +18666,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Coins Management",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19868,7 +19949,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "HotBar Management",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20429,7 +20510,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Stats Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21842,7 +21923,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "TestCavesMap2.png",
                       "points": [],
                       "originPoint": {
@@ -21856,7 +21937,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 187.5
+                          },
+                          {
+                            "x": 460,
+                            "y": 187.5
+                          },
+                          {
+                            "x": 470,
+                            "y": 787.5
+                          },
+                          {
+                            "x": 5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -22103,16 +22203,39 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "CollisionNP"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "Enemy",
-                        "SolidObject",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "SolidObject",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Background",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
                     }
                   ],
                   "conditions": [],
