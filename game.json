@@ -21713,7 +21713,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C\nShow Stats in Game: / ",
+          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C\nShow Stats in Game: P",
           "font": "",
           "characterSize": 30,
           "color": {
