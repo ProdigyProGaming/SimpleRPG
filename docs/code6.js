@@ -739,7 +739,6 @@ gdjs.CavesCode.condition1IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(runt
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "ShopUI");
 }{gdjs.evtTools.runtimeScene.setTimeScale(runtimeScene, 1);
-}{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(0);
 }}
 
 }
@@ -2308,10 +2307,27 @@ gdjs.CavesCode.condition0IsTrue_0.val = false;
 gdjs.CavesCode.condition1IsTrue_0.val = false;
 gdjs.CavesCode.condition2IsTrue_0.val = false;
 {
-gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
+gdjs.CavesCode.condition0IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "ShopUI"));
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
-gdjs.CavesCode.condition1IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "ShopUI"));
+{gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
+gdjs.CavesCode.condition0IsTrue_1.val = false;
+gdjs.CavesCode.condition1IsTrue_1.val = false;
+{
+gdjs.CavesCode.condition0IsTrue_1.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
+if( gdjs.CavesCode.condition0IsTrue_1.val ) {
+    gdjs.CavesCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.CavesCode.condition1IsTrue_1.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Escape");
+if( gdjs.CavesCode.condition1IsTrue_1.val ) {
+    gdjs.CavesCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }if ( gdjs.CavesCode.condition1IsTrue_0.val ) {
 {
 {gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition2IsTrue_0;
@@ -2582,7 +2598,17 @@ gdjs.CavesCode.condition1IsTrue_0.val = false;
 gdjs.CavesCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 }if ( gdjs.CavesCode.condition0IsTrue_0.val ) {
 {
-gdjs.CavesCode.condition1IsTrue_0.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "ShopUI"));
+{gdjs.CavesCode.conditionTrue_1 = gdjs.CavesCode.condition1IsTrue_0;
+gdjs.CavesCode.condition0IsTrue_1.val = false;
+gdjs.CavesCode.condition1IsTrue_1.val = false;
+{
+gdjs.CavesCode.condition0IsTrue_1.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Inventory"));
+}if ( gdjs.CavesCode.condition0IsTrue_1.val ) {
+{
+gdjs.CavesCode.condition1IsTrue_1.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "ShopUI"));
+}}
+gdjs.CavesCode.conditionTrue_1.val = true && gdjs.CavesCode.condition0IsTrue_1.val && gdjs.CavesCode.condition1IsTrue_1.val;
+}
 }}
 if (gdjs.CavesCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
