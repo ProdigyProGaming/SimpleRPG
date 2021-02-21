@@ -16408,18 +16408,6 @@
                             "1"
                           ],
                           "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "HealthBarValue",
-                            "=",
-                            "Slot.VariableString(Slot)"
-                          ],
-                          "subInstructions": []
                         }
                       ],
                       "events": []
