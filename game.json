@@ -6429,8 +6429,8 @@
           "name": "ControlsText",
           "persistentUuid": "76639158-1328-4101-8c12-c8853bc4cec9",
           "width": 0,
-          "x": 310,
-          "y": 150,
+          "x": 307,
+          "y": 144,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6445,8 +6445,8 @@
           "name": "AimText",
           "persistentUuid": "fb1654d9-5c4a-408e-9729-f0d79c328af8",
           "width": 0,
-          "x": 310,
-          "y": 10,
+          "x": 309,
+          "y": 5,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -6519,9 +6519,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C\nShow Stats in Game: P",
+          "string": "Controls:\nMovement: WASD\nOpen Inventory: E\nClose Inventory: E or Escape\nOpen Shop (When infront of shop): E\nClose Shop: Escape\nManage Inventory: Click and drag on items\nSwing Sword: Click with sword in hand\nAim Gun: Hold right click\nShoot Gun: Left click while aiming gun\nPlant Seeds: Left click on farm plot with seeds in hand\nHarvest Seeds: Left click on finished crop\nGo To Main Menu: Escape (when not in shop)\nOpen Cheats Menu (if enabled in settings): C\nShow Stats in Game: P",
           "font": "",
-          "characterSize": 30,
+          "characterSize": 28,
           "color": {
             "b": 0,
             "g": 0,
@@ -15723,7 +15723,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Shop",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15776,18 +15776,6 @@
                   "parameters": [
                     "",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "InventoryIsShown",
-                    "=",
-                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -18959,17 +18947,6 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
                     "inverted": true,
                     "value": "LayerVisible"
                   },
@@ -18978,6 +18955,37 @@
                     "\"ShopUI\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Escape"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 },
                 {
                   "type": {
@@ -20267,7 +20275,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Change Scenes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20378,14 +20386,34 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "LayerVisible"
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "",
-                    "\"ShopUI\""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Inventory\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ShopUI\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [
@@ -20413,7 +20441,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Stats Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
