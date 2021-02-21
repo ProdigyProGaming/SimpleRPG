@@ -212,15 +212,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1-7.png",
         "kind": "image",
         "metadata": "",
@@ -779,42 +770,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Empty-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Empty-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Stage1-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stage1-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Stage2-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stage2-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Stage4-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stage4-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "FarmLandHover-1.png",
         "kind": "image",
         "metadata": "",
@@ -833,39 +788,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Stage3-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stage3-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Stage4-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stage4-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "InventorySlot-1.png",
         "kind": "image",
         "metadata": "",
         "name": "InventorySlot-1.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Seed1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Seed1-1.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1234,6 +1162,236 @@
         "metadata": "",
         "name": "NewObject-1-19.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-6-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-7-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stage4-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stage4-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stage4-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stage4-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stage3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stage3-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stage2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stage2-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stage1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stage1-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-5-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-6-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-7-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Seed1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Seed1-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Seed1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Seed1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Seed1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Seed1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Empty-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Empty-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Seed1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Seed1-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Ludum Dare 38 - Track 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ludum Dare 38 - Track 1.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Ludum Dare 38 - Track 1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ludum Dare 38 - Track 1.ogg",
         "userAdded": true
       }
     ],
@@ -2724,53 +2882,53 @@
                     },
                     {
                       "name": "Quantity01",
-                      "x": 72,
-                      "y": 67
+                      "x": 82,
+                      "y": 72
                     },
                     {
                       "name": "Quantity02",
-                      "x": 146,
-                      "y": 67
+                      "x": 156,
+                      "y": 72
                     },
                     {
                       "name": "Quantity03",
-                      "x": 220,
-                      "y": 67
+                      "x": 230,
+                      "y": 72
                     },
                     {
                       "name": "Quantity04",
-                      "x": 294,
-                      "y": 67
+                      "x": 304,
+                      "y": 72
                     },
                     {
                       "name": "Quantity05",
-                      "x": 368,
-                      "y": 67
+                      "x": 378,
+                      "y": 72
                     },
                     {
                       "name": "Quantity06",
-                      "x": 72,
-                      "y": 141
+                      "x": 82,
+                      "y": 146
                     },
                     {
                       "name": "Quantity07",
-                      "x": 146,
-                      "y": 141
+                      "x": 156,
+                      "y": 146
                     },
                     {
                       "name": "Quantity08",
-                      "x": 220,
-                      "y": 141
+                      "x": 230,
+                      "y": 146
                     },
                     {
                       "name": "Quantity09",
-                      "x": 294,
-                      "y": 141
+                      "x": 304,
+                      "y": 146
                     },
                     {
                       "name": "Quantity10",
-                      "x": 368,
-                      "y": 141
+                      "x": 378,
+                      "y": 146
                     },
                     {
                       "name": "TrashSlot",
@@ -2996,7 +3154,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "InventorySlot-1.png",
+                  "image": "Seed1-1-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4693,7 +4851,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -4707,7 +4865,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 0.856
       },
       "objectsGroups": [
         {
@@ -4771,7 +4929,7 @@
           "persistentUuid": "6f6ea205-4281-4da1-8e61-332a89bf4030",
           "width": 0,
           "x": 384,
-          "y": 258,
+          "y": 50,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -8180,7 +8338,7 @@
                         "=",
                         "383",
                         "=",
-                        "3"
+                        "50"
                       ],
                       "subInstructions": []
                     },
@@ -11689,7 +11847,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Inventory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12230,8 +12388,8 @@
                       "parameters": [
                         "",
                         "InventoryMovingSlot",
-                        "MouseX()",
-                        "MouseY()",
+                        "MouseX()-(CameraX()-620)",
+                        "MouseY()-(CameraY()-360)",
                         ""
                       ],
                       "subInstructions": []
@@ -12324,7 +12482,7 @@
                       "parameters": [
                         "InventoryMovingSlot",
                         "=",
-                        "MouseX()-(CameraX()-640)",
+                        "MouseX()-(CameraX()-620)",
                         "=",
                         "MouseY()-(CameraY()-360)"
                       ],
@@ -13979,7 +14137,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -13993,7 +14151,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [],
@@ -16135,7 +16293,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Empty-1-0.png",
+                      "image": "Empty-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17807,7 +17965,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -20157,7 +20315,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -20613,6 +20771,52 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Ludum Dare 38 - Track 1.ogg",
+                "0",
+                "yes",
+                "GlobalVariable(SoundVolume)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -20656,7 +20860,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -21575,7 +21779,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -21819,7 +22023,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
