@@ -564,14 +564,10 @@ for(var i = 0, k = 0, l = gdjs.CavesCode.GDInventorySlotObjects4.length;i<l;++i)
     }
 }
 gdjs.CavesCode.GDInventorySlotObjects4.length = k;}if (gdjs.CavesCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("HealthBarValue"), gdjs.CavesCode.GDHealthBarValueObjects4);
 /* Reuse gdjs.CavesCode.GDInventorySlotObjects4 */
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Slot" + (gdjs.RuntimeObject.getVariableString(((gdjs.CavesCode.GDInventorySlotObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.CavesCode.GDInventorySlotObjects4[0].getVariables()).getFromIndex(0)))).getChild("Quantity").add(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(1);
-}{for(var i = 0, len = gdjs.CavesCode.GDHealthBarValueObjects4.length ;i < len;++i) {
-    gdjs.CavesCode.GDHealthBarValueObjects4[i].setString("");
-}
 }}
 
 }
