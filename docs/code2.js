@@ -71,7 +71,7 @@ gdjs.How_32To_32Play_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isM
 }if ( gdjs.How_32To_32Play_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.How_32To_32Play_32MenuCode.conditionTrue_1 = gdjs.How_32To_32Play_32MenuCode.condition2IsTrue_0;
-gdjs.How_32To_32Play_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8158892);
+gdjs.How_32To_32Play_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10848708);
 }
 }}
 }

@@ -56,7 +56,22 @@ gdjs.Main_32MenuCode.condition2IsTrue_1 = {val:false};
 gdjs.Main_32MenuCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.Main_32MenuCode.GDPlayButtonObjects1});gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDOptionsButtonObjects1Objects = Hashtable.newFrom({"OptionsButton": gdjs.Main_32MenuCode.GDOptionsButtonObjects1});gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDHowToPlayButtonObjects1Objects = Hashtable.newFrom({"HowToPlayButton": gdjs.Main_32MenuCode.GDHowToPlayButtonObjects1});gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDQuitButtonObjects1Objects = Hashtable.newFrom({"QuitButton": gdjs.Main_32MenuCode.GDQuitButtonObjects1});gdjs.Main_32MenuCode.eventsList0 = function(runtimeScene) {
+gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.Main_32MenuCode.GDPlayButtonObjects1});gdjs.Main_32MenuCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(9).getChild("Health")) <= 0;
+}if (gdjs.Main_32MenuCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(9).getChild("Health").setNumber(100);
+}}
+
+}
+
+
+};gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDOptionsButtonObjects1Objects = Hashtable.newFrom({"OptionsButton": gdjs.Main_32MenuCode.GDOptionsButtonObjects1});gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDHowToPlayButtonObjects1Objects = Hashtable.newFrom({"HowToPlayButton": gdjs.Main_32MenuCode.GDHowToPlayButtonObjects1});gdjs.Main_32MenuCode.mapOfGDgdjs_46Main_9532MenuCode_46GDQuitButtonObjects1Objects = Hashtable.newFrom({"QuitButton": gdjs.Main_32MenuCode.GDQuitButtonObjects1});gdjs.Main_32MenuCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -73,13 +88,16 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10283956);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10807020);
 }
 }}
 }
 if (gdjs.Main_32MenuCode.condition2IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Farm", false);
-}}
+}
+{ //Subevents
+gdjs.Main_32MenuCode.eventsList0(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -99,7 +117,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10264764);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10809348);
 }
 }}
 }
@@ -125,7 +143,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10216100);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10810996);
 }
 }}
 }
@@ -151,7 +169,7 @@ gdjs.Main_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonR
 }if ( gdjs.Main_32MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_32MenuCode.conditionTrue_1 = gdjs.Main_32MenuCode.condition2IsTrue_0;
-gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10203276);
+gdjs.Main_32MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10811244);
 }
 }}
 }
@@ -230,7 +248,7 @@ gdjs.Main_32MenuCode.GDHowToPlayButtonObjects2.length = 0;
 gdjs.Main_32MenuCode.GDQuitButtonObjects1.length = 0;
 gdjs.Main_32MenuCode.GDQuitButtonObjects2.length = 0;
 
-gdjs.Main_32MenuCode.eventsList0(runtimeScene);
+gdjs.Main_32MenuCode.eventsList1(runtimeScene);
 return;
 
 }
